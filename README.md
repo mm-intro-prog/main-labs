@@ -1,8 +1,6 @@
 # Welcome!
 
-This is a customized version of the 
-
-The [BJC](https://github.com/beautyjoy/bjc-r) materials for use in the CCIS 1505 Fundamentals of Programming Course at [Hennepin Technical College](https://hennepintech.edu)
+This is a customized version of the [BJC](https://github.com/beautyjoy/bjc-r) materials for use in the CCIS 1505 Fundamentals of Programming Course at [Hennepin Technical College](https://hennepintech.edu)
 
 ## License
 [CC-BY-NC-SA 4.0][cc]
