@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- put the following in exactly --><script src="/main-labs/llab/loader.js"></script>
+        <title>
+            Finding the Triples (Continued)
+        </title>
+    </head>
+    <body>
+        Next we make a <i>substitute-triple</i> block, which takes one of the eight winning combinations and the position as inputs and returns the winning combination with all the piece "substituted" in. <p></p>
+        <div style="text-align: center;"><img border="0" title="There should be an image here" src="/main-labs/img/hof/substitute-triple-block-output.png" >
+        </div>
+        <p></p>
+        <p></p>
+        <div style="text-align: center;"><img border="0" title="There should be an image here" src="/main-labs/img/hof/substitute-triple-block-output2.png" >
+        </div>
+        <p>
+            Hint: There is a reason why you made substitute-letter.
+        </p>
+        <p></p>
+        <p>
+            Lastly, we are going to finish everything up by making the <i>find-triples</i> block. It just takes in a board configuration and returns the list of triples that we wanted. When making this block, it would help if you somehow use the list of 8 winning configurations (1 2 3, 4 5 6.....) and, of course, use substitute-triple.
+        </p>
+        <p></p>
+        <div style="text-align: center;"><img border="0" title="There should be an image here" src="/main-labs/img/hof/find-triples-block.png" >
+        </div>
+        <p>
+            should REPORT something like this:
+        </p>
+        <p></p>
+        <div style="text-align: center;"><img border="0" title="There should be an image here" src="/main-labs/img/hof/list-within-lists.png" >
+        </div>
+        <p>
+            This is ugly, isn't it. Fortunately, we provide a block that helps you read the list.
+        </p>
+        <div style="text-align: center;"><img border="0" title="TriplesConverter" alt="TriplesConverter" src="/main-labs/img/hof/ttt-triples-converter-code.png" >
+            <br>
+        </div>
+        <br>
+        <p style="text-align: center;"><img border="0" src="/main-labs/img/hof/ttt-triples-converter-output.png" alt="ttt triples converter 2" title="ttt triples converter 2" >
+            <br>
+        </p>
+        <p>
+            <br>
+        </p>
+        <p>
+            Beware, triples-converter is <span style="font-weight: bold;">ONLY</span> used to help you read the list; it is not actually used in the program itself!
+            <br>
+        </p>
+        <p>
+            The entire list should be this:
+        </p>
+        <p></p>
+        <div style="text-align: center;"><img border="0" title="There should be an image here" src="/main-labs/img/hof/ttt-8-lists.png" >
+        </div>
+        <p>
+            This is exactly how we want it!
+        </p>
+    </body>
+</html>

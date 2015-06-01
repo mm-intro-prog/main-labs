@@ -1,0 +1,51 @@
+title: Topic 14: Recursion II
+{
+h2: Big Ideas
+big-idea: Relating recursion in programming with inductive function definition
+
+//  video: Recursion II [https://coursesharing.org/courses/6/lectures/19]
+  video: Take-home midterm exam Wednesday!
+//   video: AI [https://coursesharing.org/courses/6/lectures/22]
+  reading: Blown to Bits, Chapter 6 [http://www.bitsbook.com/wp-content/uploads/2008/12/chapter6.pdf]
+
+h2: Activities
+
+learning-goal: Understand how reporters use combiners instead of sequences.
+learning-goal: Practice planning and coding recursive reporters.
+learning-goal: Implement higher order functions.
+
+big-idea: Recursive Reporters:
+
+heading: Number representation
+  resource: Recursive Reporters: Binary Numbers [/main-labs/cur/programming/recur/recursive-reporters/binary-numbers.html]
+  resource: A Hint on Binary Numbers [/main-labs/cur/programming/recur/recursive-reporters/binary-numbers-hint.html]
+  resource: Beyond Binary [/main-labs/cur/programming/recur/recursive-reporters/beyond-binary.html]
+
+heading: Pascal's Triangle
+   resource: What is Pascal's Triangle? [/main-labs/cur/programming/recur/recursive-reporters/pascals-triangle.html]
+   resource: Computing a number in Pascal's Triangle [/main-labs/cur/programming/recur/recursive-reporters/pascals-triangle-algorithm.html]
+   resource: Pascal's Triangle: Hints [/main-labs/cur/programming/recur/recursive-reporters/pascals-triangle-hint.html]
+   resource: How long does this computation take? [/main-labs/cur/programming/recur/recursive-reporters/pascals-triangle-how-long-does-the-computation-take.html]
+
+big-idea: Here are the ones you haven't seen before:
+
+heading: Sorting
+   resource: Sorting a List [/main-labs/cur/programming/recur/recursive-reporters/recursively-sorting.html]
+
+heading: Subsets
+   resource: Subsets of a Set [/main-labs/cur/programming/recur/recursive-reporters/subsets-of-a-set.html]
+   resource: Subset hints [/main-labs/cur/programming/recur/recursive-reporters/subsets-of-a-set-hint.html]
+   resource: Subsets and Efficiency [/main-labs/cur/programming/recur/recursive-reporters/subsets-and-efficiency.html]
+   resource: Fast Subsets [/main-labs/cur/programming/recur/recursive-reporters/subsets-of-a-set-fast-soln.html]
+
+heading: Ice Cream Shop Menu
+   resource: At the Ice Cream Shop [/main-labs/cur/programming/recur/recursive-reporters/ice-cream-shop.html]
+   resource: Formal Parameters [/main-labs/cur/programming/recur/recursive-reporters/ice-cream-formal-parameters.html]
+   resource: Menu hints [/main-labs/cur/programming/recur/recursive-reporters/ice-cream-hint.html]
+
+
+heading: Some simple ones
+   resource: Plurals of Words [/main-labs/cur/programming/recur/recursive-reporters/plurals-of-words.html]
+   resource: Generalizing the Map Pattern [/main-labs/cur/programming/recur/recursive-reporters/generalizing-the-map-pattern.html]
+   resource: Even numbers [/main-labs/cur/programming/recur/recursive-reporters/even-number-filter.html]
+}
