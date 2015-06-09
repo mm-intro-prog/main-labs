@@ -1,6 +1,23 @@
-title: Conditionals
+title: Composition and Conditionals
 
 {
+
+
+heading: Building complicated blocks with simple blocks
+  resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?2]
+  resource: Building with custom blocks: your first flower [/main-labs/cur/programming/functions/intro/composing-blocks.html]
+  //quiz: TODO practice  composing functions (1/2 of Jessica's previous quiz?)
+  quiz: Composing with "buggy" blocks [/main-labs/cur/programming/functions/intro/buggy-house-and-square.html]
+  resource: Draw a flower [/main-labs/cur/programming/functions/intro/draw-a-flower.html]
+
+
+heading: Using randomness
+  resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?3]
+  resource: The random block [/main-labs/cur/programming/random/the-random-block.html]
+  resource: Moving a sprite randomly around the screen  [/main-labs/cur/programming/random/randomly-moving-character.html]
+  quiz: Understanding The Random Block [/main-labs/cur/programming/random/Test-Yourself-random.html]
+  resource: Draw a field of flowers [/main-labs/cur/programming/functions/draw-field-of-flowers.html]
+
 
 heading: Conditional Blocks
 
@@ -14,7 +31,7 @@ heading: Conditional Blocks
   resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?1]
   //resource: write thermostat  -- writing a block that is used elsewhere (get a input parameter as necessary)
   //examples with dates would be great.
-  resource: Blocks using if and if-else [/main-labs/cur/programming/conditionals/if-else-examples.html]
+  resource: Blocks using if and if-else [/main-labs/cur-new/programming/conditionals/if-else-examples.html]
   // game of life here later?
 
 
@@ -29,7 +46,7 @@ heading: Combining Booleans
 heading: Practice with Predicates
 //  resource: motivation
   resource: Reporter Blocks [/main-labs/cur/programming/functions/reporters.html]
-  resource: Practice: >= [/main-labs/cur/programming/conditionals/predicates.html] // chop out relevant piees
+  resource: Practice: >= [/main-labs/cur/programming/conditionals/predicates.html] // chop out relevant pieces
   resource: Solutions to >= [/main-labs/cur/programming/conditionals/ge-soln.html]
   resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?3]
   resource: Practice: Between [/main-labs/cur/programming/functions/predicates/predicates-make-a-between-block.html]
