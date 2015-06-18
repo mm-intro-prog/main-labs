@@ -1,9 +1,9 @@
 title: Collecting Data into Lists
 {
-h2: Big Ideas
+//h2: Big Ideas
 // big-idea: Understand the meaning of Turing Completeness.
 // big-idea: Understand the concept of recursion.
-big-idea: Explore privacy issues related to the widespread unchecked dissemination of digital information.
+//big-idea: Explore privacy issues related to the widespread unchecked dissemination of digital information.
 
 //  video: Programming Paradigms (Dan Garcia) [https://coursesharing.org/courses/6/lectures/13]
 //   video: Recursion 1 [https://coursesharing.org/courses/6/lectures/17]
@@ -25,15 +25,15 @@ heading: Introduction to Lists
    resource: Composing higher order functions to solve more complicated problems [/main-labs/cur/programming/lists/hof/composing-higher-order-functions-to-solve-more-complicated-problems.html]
    resource: More on composition of higher order functions [/main-labs/cur/programming/lists/hof/more-on-composition-of-higher-order-functions.html]
    resource: When you really have to loop [/main-labs/cur/programming/lists/hof/when-you-really-have-to-loop.html]
-  
+
 //heading: Lists and Sentences: The Index Variable Pattern
 //  resource: Processing a Sentence [/main-labs/cur/programming/lists/sentences/processing-a-sentence.html]
-  
+
 heading: List Mutation
   resource: Swap Two List Values [/main-labs/cur/programming/lists/intro/swap-two-list-values.html]
   resource: Mutation of Variables [/main-labs/cur/programming/lists/mutation/mutate-vars.html]
 
-  
+
 assignment: (Due Later) Hangman Classic [/main-labs/cur/programming/projects/hangman/hangman-classic.html]
-  
+
 }

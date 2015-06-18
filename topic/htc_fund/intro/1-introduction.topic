@@ -54,14 +54,14 @@ heading: Repeating commands
   //resource: Nested FORs [/main-labs/cur/programming/variables/nested-for.html]
 
 
-  heading: Making your own blocks
-    resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?6]
-    resource: Making your first custom block [/main-labs/cur/programming/functions/intro/tutorial-custom-blocks.html]
-    resource: Adding an input [/main-labs/cur/programming/functions/intro/adding-a-simple-input.html]
+heading: Making your own blocks
+  resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?6]
+  resource: Making your first custom block [/main-labs/cur/programming/functions/intro/tutorial-custom-blocks.html]
+  resource: Adding an input [/main-labs/cur/programming/functions/intro/adding-a-simple-input.html]
 
-    //resource: introduce variables a bit here?
+  //resource: introduce variables a bit here?
 
-    resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?7]
-    resource: Make a "draw polygon" block [/main-labs/cur/programming/functions/make-a-draw-polygon-block.html]
-    resource: Bug Dance! [/main-labs/cur/programming/functions/intro/bug-dance.html]
+  resource: Pair Programming Swap [/main-labs/cur/programming/guides/pair-programming-swap.html?7]
+  resource: Make a "draw polygon" block [/main-labs/cur/programming/functions/make-a-draw-polygon-block.html]
+  resource: Bug Dance! [/main-labs/cur/programming/functions/intro/bug-dance.html]
 }
