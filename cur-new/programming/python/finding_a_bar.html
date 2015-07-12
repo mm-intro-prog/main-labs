@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="/main-labs/llab/loader.js"></script>
+        <title>Finding a Bar</title>
+    </head>
+    <body>
+        <p>
+            Now it's time to seriously write some code. Start by right clicking on this <a href="/main-labs/prog/python/welcome.py">link</a> and select save as.
+            If you are working in the lab, save this to the C:\Python27 directory.
+            Head back to the shell and enter the <code>dir</code> command to make sure that the file made it into our Python27 directory.
+        </p>
+        <p><pre><code>
+C:\Python27> dir
+virus.py
+        </code></pre></p>
+        <p>
+            We will be editing the python file in something called a text editor (guess what a text editor does...).
+            There are many text editors available, any will do.  In this lab we'll be using <a href="http://brackets.io/">Brackets</a> which should be installed the lab computers, and it is free to install on your home computers as well.
+        </p>
+        <p>
+            First, open up Brackets and then open welcome.py. Make sure to read the comments at the top of the file and then take a brief glance at the code, but don't worry about it too much for right now.
+            Also, make sure to set the variable called <code>your_name</code> just below the comments. For example, <code>your_name = "Alonzo"</code> (make sure your name is inside quotes as this is how Python designates text).
+        </p>
+        <p>
+            Head back to the shell and you can try running this file by entering <code>python welcome.py</code> as shown below:
+        </p>
+        <p><pre><code>
+C:\Python27> python welcome.py
+        </code></pre></p>
+        <p>
+            Next try running the first exercise by entering <code>python welcome.py first_even_nums 5</code> (if it's working this should print the first 5 even numbers, starting with the number 2):
+        </p>
+        <p><pre><code>
+C:\Python27> python welcome.py first_even_nums 5
+2
+4
+6
+8
+        </code></pre></p>
+        <p>
+            Uh oh...it looks like we've only printed the first 4 even numbers. Head back to Sublime and edit the function called <code>first_even_nums</code> so that we get the correct behavior:
+        </p>
+                <p><pre><code>
+C:\Python27> python welcome.py first_even_nums 5
+2
+4
+6
+8
+10
+        </code></pre></p>
+        <p class="alert quoteGreen">
+            On the next page you'll learn how to define functions of your own!
+        </p>
+    </body>
+</html>

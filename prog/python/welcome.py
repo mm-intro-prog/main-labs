@@ -111,34 +111,18 @@ def palindrome(string):
 import sys
 import time
 
-functionList =  ["first_even_nums", "exponent", "reverse_string", "palindrome", "run_tests"]
+functionList =  ["first_even_nums", "exponent", "reverse_string", "palindrome", "all"]
 
 def main(argv):
 
     arguments = argv[1:]
     numArgs = len(arguments)
     if numArgs == 0:
-        print('Installing Virus:')
-        for i in range(101):
-            sys.stdout.write("\r [")
-            for j in range(int(i/10)):
-                sys.stdout.write("#")
-            for j in range(10-int(i/10)-1):
-                sys.stdout.write(" ")
-            sys.stdout.write("] ")
-
-            sys.stdout.write("" + str(i) + "%")
-            sys.stdout.flush()
-            time.sleep(0.1)
-        sys.stdout.write("\n")
-        print("Activating Camera...\n\n")
-        print("Hello " + your_name + "\n\n")
-        print("Just kidding!!!")
-        print("You should enter a function name to test.  \nTry python virus.py function_name <argument>  (the <> means it's optional)")
+        print("Please enter a function name to test.  \nTry python welcome.py function_name <argument>  (the <> means it's optional)")
         print("Valid function_names are: " + " ".join(functionList))
         sys.exit(1)
     elif (numArgs > 2):
-        print ("It appears that you've inputted too many arguments.  \nTry python virus.py function_name <argument> (the <> means it's optinoal)")
+        print ("It appears that you've inputted too many arguments.  \nTry python welcome.py function_name <argument> (the <> means it's optinoal)")
         sys.exit(1)
     else:
         case = -1
@@ -159,7 +143,7 @@ def main(argv):
                     sys.exit(1)
                 first_even_nums(arg)
             else:
-                print("Please enter a number after the function name such as:\npython virus.py first_even_nums 5")
+                print("Please enter a number after the function name such as:\npython welcome.py first_even_nums 5")
                 sys.exit(1)
 
         # Exercise 2 #
@@ -173,7 +157,7 @@ def main(argv):
 
         # Exercise 3 #
         elif (case == 2):
-            for tple in [("Alonzo", "oznolA"), ("abcdefghijklmnopqrstuvwxyz", "zyxwvutsrqponmlkjihgfedcba"), ("hello world", "dlrow olleh")]:
+            for tple in [("A", "A"), ("Alonzo", "oznolA"), ("abcdefghijklmnopqrstuvwxyz", "zyxwvutsrqponmlkjihgfedcba"), ("hello world", "dlrow olleh")]:
                 value = reverse_string(tple[0])
                 if (value != tple[1]):
                     print ("Your reverse_string function failed on the test case: " + tple[0] + "\nIt returned the string: " + str(value))
