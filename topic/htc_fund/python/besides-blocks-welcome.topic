@@ -1,4 +1,3 @@
-// NOTE: This is the Fall 2014 intro topic.
 title: Besides Blocks: Welcome to Python!
 {
 h2: Big Ideas
@@ -13,8 +12,8 @@ learning-goal: Learn the basics of Python syntax and write a few simple programs
 learning-goal: You should be comfortable with basic math and "string" operations.
 
 heading: Introduction to Python
-    resource: Welcome to Besides Blocks: An Introduction to Python [/main-labs/cur/programming/python/introduction_to_besides_blocks.html]
-    resource: Opening a Shell and Python [/main-labs/cur/programming/python/open_shell_and_python.html]
+    resource: Welcome to Besides Blocks: An Introduction to Python [/main-labs/cur-new/programming/python/introduction_to_besides_blocks.html]
+    resource: Opening a Shell and Python [/main-labs/cur-new/programming/python/open_shell_and_python.html]
 
 heading: Math and Variables
   resource: Variables and Primitive Expressions [/main-labs/cur/programming/python/python_syntax_and_operators.html]
