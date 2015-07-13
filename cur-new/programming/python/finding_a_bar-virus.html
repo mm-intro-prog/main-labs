@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Working with a Script</title>
+    </head>
+    <body>
+        <h2>Working with a Script</h2>
+        <h3>Get the starter file</h3>
+        <p>
+            Now it's time to seriously write some code. Start by right clicking on this
+            <a href="/main-labs/prog/python/virus.py">link</a> and select Save As.
+            If you are working in the lab, save this to the C:\Python27 directory.
+        </p>
+        <p>
+            Head back to the shell and enter the <code>dir</code> command to make sure that the
+            file made it into our Python27 directory.
+        </p>
+        <p><pre><code>
+C:\Python27> dir
+virus.py
+        </code></pre></p>
+
+        <h3>Edit the File</h3>
+        <p>
+            We will be editing the python file in a text editor. There are many text editors available, any will do.
+            In this lab we'll be using <a href="http://brackets.io/">Brackets</a> which should be installed the lab
+            computers, and it is free to install on your home computers as well.
+        </p>
+        <p>
+            First, open up Brackets and then open virus.py. Make sure to read the comments at the top of the file
+            and then take a brief glance at the code, but don't worry about it too much for right now.
+            Also, make sure to set the variable called <code>your_name</code> just below the comments. For example,
+            <code>your_name = "Alonzo"</code> (make sure your name is inside quotes as this is how Python designates text).
+        </p>
+        <p>
+            Head back to the shell and you can try running this file by entering <code>python virus.py</code> as shown below:
+        </p>
+        <p><pre><code>
+C:\Python27> python virus.py
+        </code></pre></p>
+
+        <h3>Even Numbers</h3>
+        <p>
+            Next try running the first exercise by entering <code>python virus.py first_even_nums 5</code> (if it's working this should print the first 5 even numbers, starting with the number 2):
+        </p>
+        <p><pre><code>
+C:\Python27> python virus.py first_even_nums 5
+2
+4
+6
+8
+        </code></pre></p>
+        <p>
+          Uh oh...it looks like we've only printed the first 4 even numbers. Head back to the editor and
+          look for Exercise 1 in the file.  It is the function called <code>first_even_nums</code>.
+          Update the code so that we get the correct behavior:
+        </p>
+                <p><pre><code>
+C:\Python27> python virus.py first_even_nums 5
+2
+4
+6
+8
+10
+        </code></pre></p>
+        <p>
+          Not sure what to do?  Look carefully at the <code>for</code> loop.  What did the warning earlier tell you
+          about the range function?
+        </p>
+    </body>
+</html>
