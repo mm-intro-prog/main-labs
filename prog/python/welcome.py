@@ -111,7 +111,7 @@ def palindrome(string):
 import sys
 import time
 
-functionList =  ["first_even_nums", "exponent", "reverse_string", "palindrome", "all"]
+functionList =  ["first_even_nums", "exponent", "reverse_string", "palindrome", "run_tests"]
 
 def main(argv):
 
