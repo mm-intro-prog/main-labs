@@ -22,8 +22,8 @@ heading: Math and Variables
 
 heading: Defining Functions and Loops
     resource: Defining a Python Function [/main-labs/cur-new/programming/python/define_simple_function.html]
-    resource: Printing and While Loops [/main-labs/cur-new/programming/python/printing_while_loops.html]
     resource: Working with a Script [/main-labs/cur-new/programming/python/finding_a_bar-virus.html]
+    resource: Printing and While Loops [/main-labs/cur-new/programming/python/printing_while_loops.html]
 
 heading: String Manipulation, Conditionals, and Recursion
     resource: Basic String Manipulation [/main-labs/cur-new/programming/python/python_basic_string-virus.html]
