@@ -4,7 +4,7 @@ h2: Big Ideas
 big-idea: Data Structures are a way to help programmers organize items in ways which are easier to manipulate and understand.
 big-idea: Lists are a basic data structure which exist in just about every language.
 big-idea: "Key-Value Pairs" are a very easy way to create simple relationships among different data.
-big-idea: Python dictionaries utilize key-value pairs to make organizing certain kinds of data much more effecient.
+big-idea: Python dictionaries utilize key-value pairs to make organizing certain kinds of data much more efficient.
 
 h2: Activities
 learning-goal: Get more practice writing functions in Python.
@@ -13,23 +13,23 @@ learning-goal: Learn how to use key-value pairs and why they are useful.
 learning-goal: Solve problems with Python lists and dictionaries.
 
 heading: Introduction to Python Data Structures
-    resource: Welcome to Besides Blocks [/main-labs/cur/programming/python/intro_besides_blocks_data_structs.html]
-    resource: Introduction to Python Lists [/main-labs/cur/programming/python/lists_intro.html]
+    resource: Welcome to Besides Blocks [/main-labs/cur-new/programming/python/intro_besides_blocks_data_structs.html]
+    resource: Introduction to Python Lists [/main-labs/cur-new/programming/python/lists_intro.html]
 
 heading: Mutability and List Functions in Python
-    resource: List Mutability [/main-labs/cur/programming/python/list_mutability.html]
-    resource: List Functions [/main-labs/cur/programming/python/list_functions.html]
-    resource: Iterators [/main-labs/cur/programming/python/python_iterators.html]
-    resource: Getting Ready to Program [/main-labs/cur/programming/python/data_structs_getting_setup.html]
-    resource: 2D Lists [/main-labs/cur/programming/python/2D_lists.html]
+    resource: List Mutability [/main-labs/cur-new/programming/python/list_mutability.html]
+    resource: List Functions [/main-labs/cur-new/programming/python/list_functions.html]
+    resource: Iterators [/main-labs/cur-new/programming/python/python_iterators.html]
+    resource: Getting Ready to Program [/main-labs/cur-new/programming/python/data_structs_getting_setup.html]
+    resource: 2D Lists [/main-labs/cur-new/programming/python/2D_lists.html]
 
 heading: Higher Order Functions in Python
-    resource: HOFs in Python [/main-labs/cur/programming/python/python_hofs_comprehensions.html]
-    resource: Trying to Combine in Python [/main-labs/cur/programming/python/trying_combine.html]
+    resource: HOFs in Python [/main-labs/cur-new/programming/python/python_hofs_comprehensions.html]
+    resource: Trying to Combine in Python [/main-labs/cur-new/programming/python/trying_combine.html]
 
 heading: Python Dictionaries
-    resource: Comparing Dictionaries and Lists [/main-labs/cur/programming/python/comparing_dicts_lists.html]
-    resource: Using Python Dictionaries [/main-labs/cur/programming/python/using_dictionaries.html]
-    resource: 2D Dictionaries [/main-labs/cur/programming/python/2D_dictionaries.html]
+    resource: Comparing Dictionaries and Lists [/main-labs/cur-new/programming/python/comparing_dicts_lists.html]
+    resource: Using Python Dictionaries [/main-labs/cur-new/programming/python/using_dictionaries.html]
+    resource: 2D Dictionaries [/main-labs/cur-new/programming/python/2D_dictionaries.html]
 
 }
