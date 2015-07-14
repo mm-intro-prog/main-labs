@@ -18,16 +18,12 @@ heading: Introduction to NLTK package
     resource: Getting familiar with the Natural Language Toolkit [/main-labs/cur-new/programming/python/python_data_2.html]
 
 heading: Creating a Jay Z Corpus
-    resource: Corpus Reader [/main-labs/cur/programming/python/python_data_3.html]
+    resource: Corpus Reader [/main-labs/cur-new/programming/python/python_data_3.html]
 
 heading: Frequency Analysis
-    resource: Determine the number of unique words used within an artist's first 35,000 lyrics [/main-labs/cur/programming/python/python_data_4.html]
+    resource: Determine the number of unique words used within an artist's first 35,000 lyrics [/main-labs/cur-new/programming/python/python_data_4.html]
 
 heading: Data crunching versus gaining insight? When Data Science runs amok
-    resource: Lets investigate basketball concepts in the corpora [/main-labs/cur/programming/python/python_data_5.html]
-
-
-heading: Conclusion
-  resource: Concluding Survey [/main-labs/cur/programming/python/outro-survey.html]
+    resource: Lets investigate basketball concepts in the corpora [/main-labs/cur-new/programming/python/python_data_5.html]
 
 }
