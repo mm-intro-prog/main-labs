@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Literary Corpus</title>
+    </head>
+    <body>
+        <p class="alert alert-danger">
+            This section deals with the creation of our Jay Z hiphop anthology corpus.
+        </p>
+        <p>
+          Go ahead a fire up python in terminal and import nltk. To import any package in python, you type in the keyword <code>import</code>, followed by the name of the toolkit.
+        </p>
+        <pre><code>
+>>> import nltk
+        </code></pre>
+        <p>
+          Next, we need to create our own JayZ corpus. As part of nltk, there is a plaintext corpus reading function named <code>PlaintextCorpusReader</code> that we can use to make our custom corpus.
+        </p>
+        <pre><code>
+>>> from nltk.corpus import PlaintextCorpusReader
+>>> corpus_root = 'JayZ'
+>>> wordlist = PlaintextCorpusReader(corpus_root, '.*')
+		    </code></pre>
+        <p class="alert quoteOrange">
+            Notice that inorder for us to use the functions associated with <code>nltk</code> package, we have to put the <code>nameofpackage</code> followed a <b>'.'</b> dot operator, then the name of the function we need. This is the usual python formalism. <br>
+            <code>NameOfPackage.function</code>
+        </p>
+  	    <p>
+  		      Examining the code we entered up above, the variable <code>corpus_root</code> is assigned to the folder where we put our data:
+            <br /><code>corpus_root = 'JayZ'</code>
+	          <br />Then we call the plain text corpus reader function with the root location and the token "<code>'.*'</code>".  The .* means grab every file in that folder:
+      		  <br /><code>wordlist = PlaintextCorpusReader(corpus_root, '.*')</code>
+      	</p>
+
+      	<p>
+      		Next, we use the <code>create_corpus</code> function from the starter file.  Look at the code, but you don't need to type it in.  We'll just run the existing funciton from the file.
+        </p>
+        <pre><code>
+def create_corpus(wordlist, some_corpus):
+    for fileid in wordlist.fileids():
+        raw = wordlist.raw(fileid)    # raw is a nltk function to get unprocessed data
+        raw = re.split(r'\W+', raw)   # split the raw text into words (uses re library)
+        some_corpus.extend(raw)       # extend is a list function, that can add a list to a list
+        print fileid                  # Print the files showing what was read in
+    return some_corpus
+        </code></pre>
+        <p>
+          In order to make this function work, we will need to get an additional libraries of functions. In this case, we will need the regular expressions library named "<code>re</code>". So the first thing we need to do is import that package.  Then we can import our starter file.
+      	</p>
+	      <p>
+          <pre><code>
+>>> import re
+>>> import lexical_diversity
+>>> the_corpus = lexical_diversity.create_corpus(wordlist, [])
+		      </code></pre>
+        </p>
+        <p>
+		        This function will output all of the lyrics files that were read in.  Now <code>the_corpus</code> contains all the lyrics.
+	      </p>
+
+        <p style="clear:both" class="alert quoteBlue">
+          Did you know that 80-90% of time spent on data projects is gathering data and putting it into a format you can analyze?
+        </p>
+
+        <h3>Examine the Data</h3>
+	      <p>
+		        The series of words that make up Jay Z's lyrics is now represented by a list data structure, named <code>the_corpus</code>. The list data structure in python is basically the same as the list data structure we are already familiar with from <i>Snap!</i>.  List data structures are easy to analyze and manipulate. You can see all the ways you can interact with a list in the python documentation here <a href="https://docs.python.org/2/tutorial/datastructures.html">https://docs.python.org/2/tutorial/datastructures.html</a>
+        </p>
+        <p style="clear:both" class="alert quoteBlue">
+Hopefully, you are beginning to gain a better understanding of how all the computational thinking skills you acquired in your learning of <i>Snap!</i> carries over to solving any computation problem realized in any programming language.
+	      </p>
+        <p>
+    		  Our Jay Z Corpus that we created has 112,871 words. You can see for yourself by running the <code>len</code> (python function for figuring out the length of a list) on <code>the_corpus</code>. This is great, because we are interested in the first 35,000 words of the corpora, in order to recreate the data science experiment of the hip-hop vocabulary; which determines the number of unique words used within an artist's first 35,000 lyrics.
+        </p>
+    		<pre><code>
+>>> len(the_corpus)
+112871
+        </code></pre>
+    	   <p>
+    		     We can also peek inside <code>the_corpus</code>, to determine what the first 10 words are.
+    	  </p>
+    	  <p><pre><code>
+>>> the_corpus[:10]
+[u'Dreamed', u'of', u'you', u'this', u'morning', u'Then', u'came', u'the', u'dawn', u'and']
+        </code></pre></p>
+        <p class="alert alert-danger">
+          The u before the values indicates that they are unicode strings.
+        </p>
+        <p class="alert quoteBlue">
+          An astute observer will notice that we have not done any data cleaning. For example, take a look inside a slice of the corpus - the last 10 words. <br><code>the_corpus[34990:35000]</code>
+          <br><code>['calm', 'your', 'boys', 'Cause', 'I', 'm', 'findin', 'it', 'a', 'little']</code>
+          <br>Notice that it has treated the contraction "I'm" as two separate words. While this is kind of correct, "m," is not a recognized english word. 
+        </p>
+    </body>
+</html>
