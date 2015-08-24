@@ -1,0 +1,37 @@
+title: Introduction to <span class="snap">snap</span>
+
+{
+h2: Major Concepts
+big-idea: Explore abstraction through <span class="snap">snap</span> blocks as it relates to Computer Science (CS)
+big-idea: Explore sequential programming
+
+h2: Activities
+learning-goal: Familiarize yourself with the <span class="snap">snap</span> interface
+learning-goal: Make a <span class="snap">snap</span> account to save and load projects
+learning-goal: Make a sprite sing
+learning-goal: Learn to use the mouse to move sprites around the screen.
+learning-goal: Make a Kaleidoscope
+
+heading: Introduction to <span class="snap">snap</span>
+  resource: Introduction to Pair Programming [/main-labs/cur-new/programming/guides/pair-programming-intro.html]
+  resource: Welcome to <span class="snap">snap</span> [/main-labs/cur-new/programming/snap-intro/welcome-to-snap.html]
+  resource: Overview of the Window [/main-labs/cur-new/programming/snap-intro/snap-window.html]
+  resource: Saving and Sharing Your Project [/main-labs/cur-new/programming/snap-intro/save-and-share.html]
+  resource: Exploring <span class="snap">snap</span> Blocks [/main-labs/cur-new/programming/snap-intro/snap-blocks.html]
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?1]
+  resource: Exploring <span class="snap">snap</span> Scripts [/main-labs/cur-new/programming/snap-intro/snap-scripts.html]
+  resource: Command and Hat Blocks [/main-labs/cur-new/programming/snap-intro/hat-command.html]
+  resource: Reporter Blocks [/main-labs/cur-new/programming/snap-intro/reporters.html]
+  resource: Positions on the Stage [/main-labs/cur-new/programming/snap-intro/positions-onthe-stage.html]
+
+
+heading: Kaleidoscope
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?2]
+  resource: Experiment with Drawing Commands [/main-labs/cur-new/programming/snap-intro/experiment-with-drawing-commands.html]
+  resource: Follow that Mouse! [/main-labs/cur-new/programming/loops/forever/follow-that-mouse.html]
+  resource: Forever and a Day [/main-labs/cur-new/programming/loops/forever/forever-and-a-day.html]
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?4]
+  quiz: We Won't Test You Forever [/main-labs/cur-new/programming/loops/forever/forever-self-test.html]
+  resource: Kaleidoscope [/main-labs/cur-new/programming/snap-intro/kaleidoscope.html]
+
+}
