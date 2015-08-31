@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- put the following in exactly -->
+  <script src="/main-labs/llab/loader.js"></script>
+  <title>Don't repeat yourself!</title>
+</head>
+<body>
+  <p class="code-vid">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/jsUN0NV5RfQ" frameborder="0" allowfullscreen></iframe>
+    <br />
+    <span class="caption">Thanks to <a href="http://code.org">code.org</a> for this video!</span>
+  </p>
+  <p class="alert quoteOrange">You can click on the link below to open the script in <span class="snap">snap</span> in another window.  This is indicated by the little <img class="inline" src="/main-labs/img/web/external-link.png"> icon.
+  </p>
+  <p>
+    Look at the following <a class="run" href="/main-labs/prog-new/loop/draw-a-square.xml">script</a> to draw a square. Notice that there is a <code>move</code> and <code>turn</code> block to draw each side of the square.  Those blocks are repeated four times - once for each side.
+    <br><img class="indent" src="/main-labs/img/drawing/draw_square_norepeat.png" alt="Snap code to draw a square">
+  </p>
+  <p>
+
+  </p>
+  <p>
+    We can use the <img src="/main-labs/img/blocks/repeat.png" alt="empty repeat-n block" class="inline" /> block to make drawing shapes like this square a lot easier!
+    <img class="indent" src="/main-labs/img/drawing/draw_square_repeat.png" alt="Snap code to draw a square using repeat n">
+  </p>
+  <p>
+    Not only is there less code, it's also easier to read and understand. You can immediately see that all four sides are the same.  This also helps to eliminate bugs.  You can't get one side longer than the other by accidentally putting in a different number in one of the <code>move</code> blocks, or create a different shape by using a different number in one of the <code>turn</code> blocks.
+  </p>
+  <p class="alert quoteGreen">
+      There are three different numeric values in the script&mdash;<code>4</code>, <code>100</code>, and <code>90</code>&mdash;that you can think of as <i>parameters</i> that change the resulting picture. Play with the script to understand how each number contributes to the "squareness" of the shape that is drawn.  It is important to understand this now, as you'll be using this pattern to make different shapes throughout the lab.
+  </p>
+</body>
+</html>
