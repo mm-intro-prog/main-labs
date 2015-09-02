@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Introduction: why do we need conditionals?</title>
+    </head>
+    <body>
+      <p class="code-vid">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fVUL-vzrIcM" frameborder="0" allowfullscreen></iframe>
+        <br />
+        Thanks to <a href="http://code.org">code.org</a> for this video!
+      </p>
+	<p>
+	    So far, you've practiced writing scripts that carry out short sequences of commands. One thing that all of
+	    these scripts have in common is that they run every single one of their blocks, no matter what. But what if
+	    we wanted to do something only sometimes? Let's look again at the examples from the video:
+	</p>
+
+  <p class="alert quoteBlue">
+    <strong>Bill's example:</strong>
+    <br>&nbsp;&nbsp;&nbsp;If it's raining, then grab a jacket
+    <br><br>
+    If we put that into our <em>leave the house</em> routine, it might go something like this:
+    <br> - grab the keys
+    <br> - put on shoes
+    <br> - if it's raining, (then) grab a jacket
+    <br> - go out the door
+  </p>
+
+  <p>
+    The most imporant thing to notice in this example is that you always will grab the keys, put on shoes, and go out the door.  However, it is only <em>sometimes</em> - when it's raining - that you will you grab a jacket.  The <code>if</code> statement allows us to do something (like grab a jacket) conditionally.  We only do that thing when the statement following the <code>if</code> is true.  If it is not true (if it is false), then we skip it and move on to the next step.
+  </p>
+
+  <p class="alert quoteBlue">
+    <strong>Saloni's example:</strong>
+    <br>if it's a weekday, then we go to school
+    <br>otherwise (else), we stay at home and have fun
+  </p>
+
+  <p>
+     It's similar, but a little bit differnt.  This is called an <code>if/else</code> statement - the "otherwise" is the else.  With these statements you will always do one thing or the other.  In the example, you will either go to school or you will stay home and have fun.  This is different from the simple <code>if</code>, where you might do something or you might do nothing at all.
+  </p>
+
+  <p class="alert quoteGreen">
+    Take a moment to let this settle in.  Think of some examples of things you might do "if", and decide whether those are best represented as simple <code>if</code> conditions or if they are <code>if/else</code> conditions.  We use these conditional statements a lot in programming, so it's good to first get a good sense of how they work in just your every day life.
+  </p>
+
+	<p>
+	    Fortunately, the <span class="snap">snap</span> blocks that represent <code>if</code> and <code>if/else</code> statements are very similar to English. In <span class="snap">snap</span>, the examples above might look like this:
+	</p>
+  <p>
+    <a class="run" href="/main-labs/prog-new/snap/conditionals/intro-conditionals.xml">
+	     <img src="/main-labs/img/conds-new/cond-intro-script.png" alt="if and if/else examples from above in Snap"/>
+    </a>
+  </p>
+
+</body>
+</html>
