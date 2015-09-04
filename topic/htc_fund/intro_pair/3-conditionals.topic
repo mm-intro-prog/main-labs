@@ -29,10 +29,10 @@ heading: Practice with Predicates
   resource: Practice: Between [/main-labs/cur-new/programming/functions/predicates-make-a-between-block.html]
   resource: Practice with complex booleans [/main-labs/cur-new/programming/conditionals/complex-booleans-practice.html]
 
-
-heading: Number Guessing
-  resource: Number Guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v1-0.html]
-  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?4]
-  resource: More number guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v2-0.html]
+// Too much for lab - moving to practice problems
+//heading: Number Guessing
+//  resource: Number Guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v1-0.html]
+//  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?4]
+//  resource: More number guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v2-0.html]
 
 }
