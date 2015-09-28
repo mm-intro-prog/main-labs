@@ -1,0 +1,52 @@
+<html>
+<head>
+  <script src="/main-labs/llab/loader.js"></script>
+  <title>Transforming each item of a list</title>
+</head>
+<body>
+
+    <h2>Transforming list items</h2>
+    <p>
+      In the last activity we made this list of nouns:<br>
+      <img border="0" title="giraffe, elephant, pizza, etc." alt="giraffe, elephant, pizza, etc." src="/main-labs/img/list/hof/nouns.png"/>
+    </p>
+    <p>
+      Now suppose we'd like to be able to vary our noun phrases by sometimes using one of these nouns in the plural. So we need a way to add the letter &quot;s&quot; to each item of the list. Find the <b>map</b> block near the bottom of the Variables palette and use it this way:<br>
+      <img border="0" title="map ((join () (s))) over (nouns)" alt="map ((join () (s))) over (nouns)" src="/main-labs/img/list/hof/map-join-s.png"/>
+    </p>
+
+    <p class="alert quoteGreen">
+      <b>Try this:</b><br>
+      Modify your <code>noun phrase</code> block so that half the time it uses a plural noun. Note that, if you use a plural noun, the article has to be &quot;the,&quot; rather than &quot;a.&quot;
+    </p>
+
+    <p>
+      <span class="snap">snap</span> limits the size of list displays in speech balloons, so you only see the first three items of the result in this picture, but you can tell by the vertical slider and the &quot;length: 7&quot; that all seven elements are really in the result. If you want to see them all, drag down the bottom right corner of the list. <br>
+      <img border="0" title="giraffes, elephants, pizzas, etc." alt="giraffes, elephants, pizzas, etc." src="/main-labs/img/list/hof/bignouns.png"/>
+    </p>
+
+    <p>
+      The first input to the <code>map</code> block has a form you haven't seen before this:<br>
+      <img border="0" title="the MAP block" alt="the MAP block" src="/main-labs/img/list/hof/mapblock.png"/>
+    </p>
+    <p>
+      The grey ring means that the input should be a <i>function</i>. What we mean by this is basically the same thing as the <i>f</i>(<i>x</i>)=3<i>x</i>+7 kind of function in algebra, except that it doesn't have to be a numeric function. In this case the function we want is &quot;join the letter 's' after the given word.&quot; When you drag the <code>join</code> block into the <code>map</code> input slot, the grey ring is still visible, to remind you that the input is a function, not the word that you'd get from some particular <code>join</code>ing.
+    </p>
+    <p class="alert quoteOrange">
+      Instead of using a variable, like the <i>x</i> in <i>f</i>(<i>x</i>), to represent the input to the function, we leave one of <code>join</code>'s input slots as an empty box. This is supposed to remind you of the notation 3&times;&#x2610;+7 (&quot;three times box plus seven&quot;) that you learned for functions in elementary school before you knew about variables.<br>
+      <img border="0" title="map 3x+7" alt="map 3x+7" src="/main-labs/img/list/hof/3x_7.png" />
+    </p>
+    <p>
+      Blocks like <code>map</code> that take a function as input are called higher order functions or HOFs. Here are some more examples of using <code>map</code> to compute some function of every item of a list.
+    </p>
+    <p>
+      This example will get the first letter of each item:<br>
+      <img border="0" title="map letter 1 of" alt="map letter 1 of" src="/main-labs/img/list/hof/ywd.png"/>
+    </p>
+    <p>
+      This example has two empty boxes in the function, so it's &#x2610;&times;&#x2610;, so the value is used twice which squares each number.
+      <img border="0" title="map x * x" alt="map x * x" src="/main-labs/img/list/hof/squares.png"/>
+    </p>
+
+</body>
+</html>
