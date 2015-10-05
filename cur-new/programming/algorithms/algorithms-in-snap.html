@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Search Algorithms in <span class="snap">snap</span> </title>
+	</head>
+	<body>
+		<p>
+			Using <a class="run" href="/main-labs/prog-new/snap/algorithms/algorithms-framework-new.xml" target="_blank">the framework provided</a>, we will implement linear search and a binary search.  Then, using the framework provided, we will determine how their running time changes as the list size increases. Which is faster for a list of size 5? 50? 500? 5000? Why do you think this is?
+		</p>
+		<p class="alert quoteOrange">
+			Note that the starter script has multiple sprites and some starter code.  You will not need to modify the testing code.  You only need to implement the code for the green reporter blocks at the top of the script area for each sprite.
+		</p>
+
+		<h2>Searching Unsorted Data</h2>
+		<p>
+			First we will implement a Snap block in the Unsorted sprite to find a number in a list of unsorted numbers.
+		</p>
+    <img src="/main-labs/img/list/find-unsorted.png" alt="Find Number In Unsorted List" /><br/>
+    <p>
+        Unsorted data doesn't give you a lot to work with. Your knowledge is limited to strictly the most obvious information: the numbers themselves. This makes strategy somewhat non-existent; the best you can do, on average, is to simply start at the beginning and search through the list one by one. The block is relatively straightforward to create and doesn't require the data to be put into a particular order to work. It should return the location of the number in the list, or zero if the number doesn't exist in the list.
+		</p>
+
+
+		<h3>Searching Sorted Data</h3>
+		<img border="0" style="float: right; display: inline;" src="/main-labs/img/sys/binary-search-diagram.png" alt="Searching for Numbers" title="Searching for Numbers" >
+		<p>
+			Next we will implement a Snap block in the Sorted sprite to find a number in a list of sorted numbers.  (Make sure the numbers in your input list are in the correct order when testing.)
+		</p>
+    <img src="/main-labs/img/list/find-sorted.png" alt="Find Number In Sorted List" />
+    <br />
+
+
+		<p>
+			Searching through sorted data, while faster, also requires a more complicated block. We won't need to search through every space in the list anymore -- we can assume that many of them won't work. We can keep track of the range of numbers in a list that are a possible solution to the problem (see diagram) by recording the minimum and maximum slots that could possibly contain our number. This range should shrink after each guess because you can throw away the half of the numbers on the wrong side of the center point.
+		</p>
+		<br/>
+		<p>
+			Here's how things should generally work:
+		</p>
+		<p>
+			1. The range of possibilities starts off including every number in the list (the minimum is position #1 and the maximum is the final position). Let's say that we're searching for the number 33 as shown in the diagram. Start your search around the middle of the list. Check the value of the number there.
+		</p>
+		<p>
+			2. If the number at the spot you searched is greater than 33, set the maximum to the slot before the one you just searched (after all, 33 CAN'T be on the larger side if it's is smaller than the one you just checked!). If the number is smaller than 33, set the minimum to the slot after the one you searched.
+		</p>
+		<p>
+			3. Check the middle position of your new range. Repeat step 2 for this new range and reduce the range further.
+		</p>
+		<p>
+			4. Continue to repeat steps 2 &amp; 3 until either (a) you find the number you're looking for or (b) you get in a position where the minimum and maximum of the range are equivalent without finding the number. If (b) happens, it means that the number doesn't exist in the list.
+		</p>
+		<p class="alert quoteBlue">
+			You could say that putting information in a particular order (lowest to highest, for example) actually <span style="font-style: italic;">creates new</span> information. Instead of being a simple list of numbers, sorting the information adds order and allows us to make additional assumptions that we weren't able to make before.
+			<br><br>
+			This type of information is different from the numbers themselves: it is not stored in a variable or list, but becomes a <span style="font-style: italic;">property </span>of the information itself. We can use the property to reduce the number of checks we have to do to find a particular number. The trade-off to this, however, is that we need to sort the list (which takes time) before we can make use of the order.
+		</p>
+	</body>
+</html>

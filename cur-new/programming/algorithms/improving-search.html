@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Improving Our Search</title>
+	</head>
+	<body>
+		<p class="alert quoteOrange">
+			Feel free to ask for help on this section if you get stuck. We'll be discussing a somewhat difficult subject and it may be helpful to have it explained in person.
+		</p>
+		<p>
+			If the user may be searching for the same number multiple times, it seems ridiculous to calculate the answer each time that they ask. Why don't we remember the answer instead? Remembering previously calculated information is called <strong>memoization</strong> (not memorization) in computer science. It is a powerful technique that can be used to speed up programs that have redundant calculations.
+		</p>
+
+		<h2>Remember me...</h2>
+		<p>
+			Let's implement a third block in the Memory sprite that uses memoization to remember the location of numbers that have already been found. This block can use the second block you built, the sorted number finder.
+		</p>
+		<img title="Memoized" alt="Memoized" src="/main-labs/img/list/find-number-in-list-memoized.png" >
+		<p>
+			We'll use a list to keep track of the locations of numbers that we've found already: the index of each element in the list will be the number we're looking for and the corresponding value will be the location where that number was found. If the value at a particular index is -1, that means that we haven't looked for the number yet and if the value is 0 then that means that the number doesn't exist in the list. Here is an algorithm describing how the new  block should progress using the new memoization list:
+		<br>
+		<ol>
+			<li>
+				Start off setting all of the slots in <em>memory</em> to -1 because we haven't found any numbers yet.
+			</li>
+			<li>
+				Check the global list <em>memory</em> to determine if the number in question has already been found.
+			</li>
+			<li>
+				If so, report the saved location. If not, we have to calculate it.
+			</li>
+			<li>
+				Find the number's location using the sorted number finder block.
+			</li>
+			<li>
+				Save the location of the number in the <em>memory</em> list.
+			</li>
+		</ol>
+    <p>
+			Each value will now be computed a maximum of one time. Now that's fast!
+    </p>
+
+		<h2>Consider this</h2>
+    <ul>
+    	<li>When is memoization most useful?</li>
+    	<li>What are some trade-offs of using memoization?</li>
+    </ul>
+	</body>
+</html>
