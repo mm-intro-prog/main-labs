@@ -1,0 +1,20 @@
+title: Collecting Data into Lists
+{
+
+h2: Activities
+learning-goal: Assemble commands from the Motion and Pen palettes to make short scripts.
+learning-goal: Use the <code>When</code> "hat-shapped" command blocks to start scripts at different times.
+
+//  video: Snap Draw! [https://coursesharing.org/courses/6/lectures/13]
+
+heading: Build Snap Draw!
+   resource: Explore Lists [/main-labs/cur-new/programming/lists/make-a-list.html]
+   resource: What are lists good for? [/main-labs/cur-new/programming/lists/what-good-are-lists.html]
+   resource: Transforming each item of a list [/main-labs/cur-new/programming/lists/transforming-each-item-of-a-list.html]
+   resource: Multi-dimensional lists [/main-labs/cur-new/programming/lists/multidim-lists.html]
+
+//heading: Lists and Sentences: The Index Variable Pattern
+//  resource: Processing a Sentence [/main-labs/cur/programming/lists/sentences/processing-a-sentence.html]
+
+
+}
