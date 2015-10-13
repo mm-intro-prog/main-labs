@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title><span class="snap">snap</span> Draw: Add Shapes</title>
+	</head>
+	<body>
+		<h2>Script so far...</h2>
+		<p>
+				The block to draw a polygon should look be similar to what is shown below.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/draw-polygon.png" alt="Image of draw polygon block" /><br/>
+
+		<p>
+			We can use this one block to draw shapes of different sizes when the number keys are pressed.
+		</p>
+
+		<h2>Add Shapes</h2>
+		<p>
+			Use the <code>When [space] key pressed</code> and your new draw polygon block to draw various shapes. Use the number key to determine the number of sides for the polygon. Use a fixed size for each shape, but vary the size for each one. For example make the triange 30, but the square 60.
+		</p>
+
+		<div class="alert quoteOrange"
+			<h2>What's wrong with my shapes?!</h2>
+			<p>
+				Do you notice that while your main script is running the shapes do not draw correctly, but if you only run the one script for that shape that it will work fine?
+			<p>
+
+			<p>
+				The main script which causes the sprite to move to the mouse position is interfering with drawing the shapes.  Let's use messages to stop and start the main script.  We will learn more about messages later, but for now just realize that it let's you make a custom "when" for the hat blocks.
+			</p>
+		</div>
+		<h2>Fix the Shapes</h2>
+		<p>
+			Modify your script to draw a triangle to look like what is shown below.  Notice that if you pick "new..." in the dropdown on the <code>broadcast []</code> block it allows you to enter the name for your message.  Enter in "start".
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/triangle-stop-start.png" alt="Image of draw polygon block" /><br/>
+
+		<p>
+			Next we need to add a <code>When I receive []</code> block to respond to the "start" message.  Move the forever loop that causes the sprite to follow the mouse to this block.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/start.png" alt="Image of draw 'When I receive start' block" /><br/>
+
+		<p>
+			Finally, update the main script to also broadcast the "start" message.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/main-new.png" alt="Image of new main script to send start message" /><br/>
+
+		<p class="alert quoteGreen">
+			Try it out.  Your program should now follow the mouse to draw and also draw shape on command!
+		</p>
+
+		<h2>Extras</h2>
+		<p>
+			Here are a few more ideas that you can try to add:
+			<br> - draw a circle
+			<br> - change the color gradually when the right and left arrow keys are clicked
+			<br> - ask the user for the size of the shape to draw
+		</p>
+		<p>
+			Perhaps you can come up with some other ideas as well?
+		</p>
+
+	</body>
+</html>

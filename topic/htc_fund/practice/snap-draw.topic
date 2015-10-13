@@ -1,20 +1,23 @@
-title: Collecting Data into Lists
+title: Snap Draw!
 {
 
 h2: Activities
 learning-goal: Assemble commands from the Motion and Pen palettes to make short scripts.
-learning-goal: Use the <code>When</code> "hat-shapped" command blocks to start scripts at different times.
+learning-goal: Use the <code>When</code> "hat-shapped" event handling blocks to start scripts at different times.
+learning-goal: Make and use a custom block that takes input parameters.
+learning-goal: Use broadcast and receive for a custom event.
 
 //  video: Snap Draw! [https://coursesharing.org/courses/6/lectures/13]
 
+heading: Review
+   resource: Sequential Program Flow [/main-labs/practice/snap-draw/sequential-flow-repeat.html]
+
 heading: Build Snap Draw!
-   resource: Explore Lists [/main-labs/cur-new/programming/lists/make-a-list.html]
-   resource: What are lists good for? [/main-labs/cur-new/programming/lists/what-good-are-lists.html]
-   resource: Transforming each item of a list [/main-labs/cur-new/programming/lists/transforming-each-item-of-a-list.html]
-   resource: Multi-dimensional lists [/main-labs/cur-new/programming/lists/multidim-lists.html]
-
-//heading: Lists and Sentences: The Index Variable Pattern
-//  resource: Processing a Sentence [/main-labs/cur/programming/lists/sentences/processing-a-sentence.html]
-
+   resource: Introduction [/main-labs/practice/snap-draw/intro.html]
+   resource: Clear and Follow [/main-labs/practice/snap-draw/follow.html]
+   resource: Pen Up and Down [/main-labs/practice/snap-draw/pen-up-down.html]
+   resource: Add Colors [/main-labs/practice/snap-draw/colors.html]
+   resource: Make Shapes [/main-labs/practice/snap-draw/shapes.html]
+   resource: Add Shapes [/main-labs/practice/snap-draw/shapes-polygons.html]
 
 }

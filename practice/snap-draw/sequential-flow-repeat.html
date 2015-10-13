@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Review - Sequential Program Flow</title>
+	</head>
+	<body>
+		<h2>Sequential Program Flow</h2>
+		<p>
+			To understand how to put the pieces together for any program, it is important to remember that the <code>When</code> hat-shaped blocks from the Control palette, control when a script will start running.  When that script is started, then it will run each block in order, <strong>sequentially</strong>, from top to bottom.
+		</p>
+
+    <p>
+        Loops can be used to repeat steps in that sequential flow.  Think about the instructions for shampooing your hair:
+				<br> - Wet hair
+				<br> - Apply shampoo
+				<br> - Massage shampoo into hair to lather
+				<br> - Rinse and repeat
+		</p>
+		<p>
+				This "repeat" means to go back up to the top of the steps and do it again from the beginning.   Let's program this in <span class="snap">snap</span>.
+		</p>
+
+		<h3>Sequential Shampoo - No Loop</h3>
+		<p>First let's use say blocks to say each of the instructions sequentially.</p>
+		<img src="/main-labs/practice/images/snap-draw/shampoo-seq.png" alt="Image of sequential say blocks" /><br/>
+
+		<p>
+			Since there is not "hat-shaped" command block to start the script, you need to click it to run it.  When this code runs, it will do each say, one at a time, sequentially. Run the script, and as the sprite does each say, use your mouse to follow along, pointing to each say block as it is run.
+		</p>
+
+		<p class="alert quoteOrange">
+			The exercise of pointing to each piece may seem a little silly in a simple example like this, but understanding how the code flows with both sequential steps and repeated steps is very important.  Practice following along through the code as you write scripts that are more and more complex. Even expert programmers do this in their head as they debug their code.
+		</p>
+
+		<h3>Sequential Shampoo - Add the Loop</h3>
+		<p>Now we will add the repeat.  Find the <code>Repeat [10] times</code> C-shaped block on the Control palette.  Drag it to the script area and put your say blocks inside the C-Shaped area. Repeating 10 times would probably destroy your hair, so change the 10 to a 2 by clicking in the area and entering a new value.</p>
+		<img src="/main-labs/practice/images/snap-draw/shampoo-loop1.png" alt="Image of sequential say blocks inside reapeat 2" /><br/>
+
+		<p>
+			Click it to run the script again.  Follow along again as the script is run, pointing to each say with your mouse as the sprite says the instructions.  Notice how when it gets to "Rinse and repeat" that it goes back up to the top of the repeat loop to start again.
+		</p>
+
+		<h3>Sequential Shampoo - Update the Loop</h3>
+		<p>
+			It's silly to say "Wet the hair" twice, as your hair is already wet from the rinsing. Let's move that block outside of the repeat so it only happens once.  Let's also add one more say at the end of the loop to say that we are all done.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/shampoo-loop2.png" alt="Image with the some say blocks outside of the reapeat 2" /><br/>
+
+		<p>
+			Click it to run the script again.  Follow along again as the script is run, pointing to each say with your mouse as the sprite says the instructions.  Notice how when it gets to "Rinse and repeat" that it goes back up to the top of the repeat loop to start again, but it isn't going to the top of the script to say "Wet hair".  It goes to the top of the code inside of the C-shape of the loop.  Notice that the loop must finish the repeat before it says "All done."
+		</p>
+
+		<h3>Sequential Shampoo - Start with Green Flag Icon</h3>
+		<p>
+			Finally, let's add the hat-shaped control block to start the code when the Green Flag Icon is clicked.  You will use this block in <em>most</em> of your assignments to control when your program starts running.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/shampoo-final.png" alt="Image showing script with hat-block" /><br/>
+
+		<p>
+			This time, click the Green Flag icon above the stage to start the script.  Notice that you can click the Red Stop icon to stop the script at any point.  The Yellow Pause icon allows you to pause and restart the script.
+		</p>
+		<img src="/main-labs/practice/images/snap-draw/green-flag.png" alt="Image showing program controls" /><br/>
+
+	</body>
+</html>

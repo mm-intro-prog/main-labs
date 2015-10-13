@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Dragon Flight: Costumes</title>
+	</head>
+	<body>
+		<h2>Add Costumes</h2>
+		<p>
+			We're going to fly a dragon around the screen, not a turtle, so we need to import the dragon costumes from the menu. Click the file icon and select Costumes...
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/costumes-menu.png" alt="Image of Costumes in the menu" /><br/>
+		<p>
+			Select the dragon1-a.png from the list.  Then repeat this and select dragon1-b.png from the list.
+		</p>
+
+		<p>
+			Next go to the costumes tab. It is behind the scripts tab in the center of the page.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/costumes-tab.png" alt="Image of Costumes tab with dragons" /><br/>
+		<p>
+			You should see the turtle sprite and below it two dragon images. If you do not see the dragon costumes, repeat the steps above. If you click on one of the images, the sprite's appearance will change to that image.
+		</p>
+
+		<h2>Rotation Style</h2>
+		<p>
+			We have a cool dragon sprite now, but we need to change his movement style to prevent him from upside down flight.
+		</p>
+		<p>
+			Next to the sprite image, above the tabs in the center of the screen, you'll see 3 small round buttons.
+			<br> - The top button allows 360 degree rotation of the sprite.
+			<br> - The middle button only allows the sprite to face left and right.  This is the option we want.
+			<br> - The bottom button prevents the sprite from rotating at all.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/sprite-rotation.png" alt="Image of sprite rotation style buttons" /><br/>
+
+		<h2>Code for Costume Change</h2>
+		<p>
+			There is a <code>switch costume []</code> block on the Looks palette.  Use this block to change the sprite to the dragon1-a.png costume when the Green flag is clicked.
+		</p>
+
+		<p>
+			Then when the space key is pressed:
+			<br> - change to the dragon1-b.png costume
+			<br> - wait for 2 seconds (the wait block is on the Control palette)
+			<br> - switch back to the dragon1-a.png costume.
+		</p>
+
+		<p class="alert quoteGreen">
+			Try it out!
+			<br>Does your turtle become a dragon (if it isn't already) when the Green Flag icon is clicked?
+			<br>Does the dragon breathe fire then return to normal when you press the space key?
+		</p>
+
+
+
+	</body>
+</html>

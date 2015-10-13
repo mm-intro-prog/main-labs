@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Dragon Flight: Positioning</title>
+	</head>
+	<body>
+		<h2>Code so far...</h2>
+		<p>
+				At this point, your script should look similar to what you see below.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/costumes-code.png" alt="Image of change costumes scripts" /><br/>
+
+		<h2>Let there be flight!</h2>
+		<p>
+				We're going to fly our dragon around the stage, but we need to make sure that he stays on the stage and doesn't fly away where we can't see him.
+		</p>
+
+		<p class="alert quoteOrange">
+			Recall from <a href="/main-labs/cur-new/programming/snap-intro/positions-onthe-stage.html">Lab 1: Position on the Stage</a> that the stage has min and max coordinates of -180 and -180, and max and min y coordinates of -240 and 240.
+		</p>
+
+		<p>
+			We can use a forever loop with a <code>move []</code> block to fly the dragon around, but he will soon fly off the stage.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/uncontrolled-flight.png" alt="Move forever script with no bounds." /><br/>
+		<p>
+			To prevent that, we can alter the direction the dragon sprite will move in using the <code>point in direction []</code> block.  By changing the direction by a value between 90 and 180 we can get the dragon moving back on the stage. By using a random value, we'll make the flight more interesting.
+		</p>
+
+		<p class="alert quoteGreen">
+			<strong>Try it!</strong>
+			<br>Use blocks to <em>conditionally</em> change the direction of the dragon when he starts to wander too close to the edge.
+			<br>Too close to the edge is about:
+			<br> - a min x position of -180 or a max x position of 180
+			<br> - a min y position of -135 and a max y position of 140
+		</p>
+
+		<p class="alert quoteOrange">
+			If your dragon seems to stick on the edges, adding a <code>change x by: []</code> or a <code>change y by: []</code> to bump him in the opposite direction may help.
+		</p>
+	</body>
+</html>

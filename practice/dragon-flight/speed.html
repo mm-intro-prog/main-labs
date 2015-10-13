@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Dragon Flight: Speed Control</title>
+	</head>
+	<body>
+		<h2>Code so far...</h2>
+		<p>
+				At this point, your script should look similar to what you see below, though variations are possible and likely to work just fine.  If your code is different, but working then it is also just fine.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/random-flight.png" alt="Image of random flight script" /><br/>
+
+		<h2>Speed Control</h2>
+		<p>
+				If you have a value of 10 in your move block, your dragon might be moving fairly quickly around the screen.  We can change the speed of flight by altering the value in the move block.  We'll use a variable for this and then alter the speed with the up and down arrow keys.
+		</p>
+
+		<p class="alert quoteOrange">
+			Script Variables were introduced in <a href="/main-labs/cur-new/programming/variables/scriptvar.html">Lab 3: Script Variables</a> and global variables were introduced in <a href="http://htc-ccis1505.github.io/main-labs/cur/programming/variables/global-variables.html">Lab 4: Global Variables</a>.
+		</p>
+
+		<p>
+			Create a new <strong>global</strong> variable named "speed". Because we will use this across multiple scripts, we can't use a script variable here. Add a <code>set [var] to []</code> block to set speed to 5.  Then update the <code>move</code> block at the bottom to use the speed variable.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/speed-var.png" alt="Adding the speed variable to the script." /><br/>
+
+		<p>
+			Next we can use the <code>when [] key pressed</code> and <code>change [var] by []</code> blocks to increase and decrease the speed.
+		</p>
+		<img src="/main-labs/practice/images/dragon-flight/speed-controls.png" alt="Alter the speed when up/down arrow keys pressed." /><br/>
+
+		<p>
+			If you try this out however, you might notice that you can make the dragon fly backwards, and you can also get the dragon moving very fast. This isn't good. We need a to limit the max and min speed.
+		</p>
+
+		<p class="alert quoteGreen">
+			<strong>Try it!</strong>
+			<br>Use conditional logic to prevent the speed from going above 15 or becoming 0 or less.
+		</p>
+
+	</body>
+</html>
