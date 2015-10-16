@@ -6,14 +6,15 @@ learning-goal: Review the use of the <code>Ask</code> and <code>answer</code> bl
 learning-goal: Assemble commands from the Motion and Control palettes to make sprite move around the stage.
 learning-goal: Use the <code>When</code> "hat-shapped" event handling blocks to start scripts at different times.
 learning-goal: Use the <code>if</code> block to alter program flow.
-learning-goal: Build complex boolean expressions using boolean operators.
+learning-goal: Build boolean expressions using boolean operators.
 learning-goal: Change the appearance of the sprite using costumes.
-learning-goal: Use a script variable.
+learning-goal: Use a global variable.
 
 //  video: Dragon Flight [https://coursesharing.org/courses/6/lectures/13]
 
 heading: Review
-   resource: Conditional Program Flow [/main-labs/practice/dragon-flight/program-flow-ifelse.html]
+   resource: Conditional Loops [/main-labs/practice/dragon-flight/flow-repeat-until.html]
+   resource: Global Variables [/main-labs/practice/dragon-flight/global-vars.html]
 
 heading: Make a Dragon Fly
    resource: Introduction [/main-labs/practice/dragon-flight/intro.html]

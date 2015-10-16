@@ -1,0 +1,24 @@
+title: 99 Bottles
+{
+
+h2: Activities
+learning-goal: Review the use of the <code>ask</code> and <code>answer</code> blocks.
+learning-goal: Create and use script variables.
+learning-goal: Build boolean expressions using boolean operators.
+learning-goal: Use the <code>if</code> and <code>if-else</code> blocks to alter program flow.
+learning-goal: Make a reporter block.
+
+//  video: 99 Bottles [https://coursesharing.org/courses/6/lectures/13]
+
+heading: Review
+   resource: Conditional Flow [/main-labs/practice/bottles/flow-ifelse.html]
+   resource: Script Variables [/main-labs/practice/bottles/script-vars.html]
+
+heading: Sing 99 Bottles
+   resource: Introduction [/main-labs/practice/bottles/intro.html]
+   resource: Main Script [/main-labs/practice/bottles/main-script.html]
+   resource: Last Line [/main-labs/practice/bottles/last-line.html]
+   resource: Singular or Plural [/main-labs/practice/bottles/bottle-word.html]
+   resource: What? No More! [/main-labs/practice/bottles/wrapup.html]
+
+}

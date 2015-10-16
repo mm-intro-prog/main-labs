@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Review - Conditional Program Flow</title>
+	</head>
+	<body>
+		<h2>Conditional Program Flow</h2>
+		<p>
+			Generally speaking, programs run sequentially top to bottom, but some blocks can alter that flow before allowing the script to continue on to the next block. We've seen how a repeat block can alter that sequential flow. Using a custom block also alters that flow, by causing the steps inside that block to run before the main script goes on to the next block.
+		</p>
+
+    <p>
+        Another way to alter the flow is with conditional logic.  For this exercise we will look more closely at <code>if</code> and <code> if-else</code> blocks.
+		</p>
+
+
+		<h3>Simple if</h3>
+		<p>
+				First let's look at the <code>if</code> block.  This will cause something to happen when some condition (a boolean expression) is <em>true</em>.  If that condition is not true, then nothing happens. The program just continues with the next block in the sequence.
+		</p>
+		<p>
+			Here is the example that we saw in lab for a leaving the house routine:
+			    <br> - grab the keys
+			    <br> - put on shoes
+			    <br> - if it's raining, (then) grab a jacket
+			    <br> - go out the door
+		</p>
+
+		<p>
+			Let's put this together in <span class="snap">snap</span>:
+		</p>
+		<img src="/main-labs/practice/images/bottles/leave-house.png" alt="Image of the script above in Snap" /><br/>
+
+	  <p>
+	    Run the code and follow through the example, pointing to each block as it runs.  What happens if you say "Yes" it is raining?  What happens if you say "No".  How are they different?
+		</p>
+		<p>
+			The most imporant thing to notice in this example is that you always will grab the keys, put on shoes, and go out the door.  However, it is only <em>sometimes</em> - when it's raining - that you will you grab a jacket.  The <code>if</code> statement allows us to do something (like grab a jacket) conditionally. If the condition is not true (if it is false), then we skip it and move on to the next step.
+	  </p>
+
+		<p class="alert quoteOrange">
+			Remember that in programming, yes and no is represented by the boolean values for <code>true</code> and <code>false</code>.
+		</p>
+
+
+		<h3>Simple if-else</h3>
+		<p>
+			In lab, we also looked at the <code>if-else</code> block.  The example we saw was:
+			    <br> - if it's a weekday, then we go to school
+			    <br> - otherwise (else), we stay at home and have fun
+		</p>
+		<p>
+			Let's put this together in <span class="snap">snap</span>:
+		</p>
+		<img src="/main-labs/practice/images/bottles/weekend.png" alt="Image of the script above in Snap" /><br/>
+
+	  <p>
+	    Run the code and follow through the example, pointing to each block as it runs.  What happens if you say "Yes" it is a weekday?  What happens if you say "No".  How are they different?
+		</p>
+
+		<p class="alert quoteOrange">
+			<strong>How do you decide if you want an <code>if</code> block or an <code>if-else</code> block?</strong>
+			<br><br>
+			Remember that both will do something when something is <code>true</code>. If you need to do something <em>else</em> when the condition is <code>false</code>, then you need the <code>if-else</code> block.  If the rest of what happens is the same in both cases, then use the <code>if</code> block.
+			<br><br>
+			Put this into your own words and think about how you would apply this to things you talk about everyday.  Notice when there is an <em>else</em> or an <em>otherwise</em> and when there isn't.  Do you talk about them differently?
+		</p>
+	</body>
+</html>
