@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Review - Lists</title>
+	</head>
+	<body>
+    <p class="alert quoteOrange">
+      In <a href="/main-labs/cur/programming/variables/global-variables.html">Lab 5: Lists and Higher Order Functions (HOFs)</a>, we learned how to make and use lists.
+		</p>
+
+		<h2>List Blocks</h2>
+		<p>
+			Recall that a <code>list</code> is a way to combine several values into one grouped value.  It is an <em>object</em> that allows you to store a series of values inside one <code>variable</code>.
+		</p>
+		<p>
+			<span class="snap">snap</span> gives us many different blocks to use for working with lists.  In this practice we will focus on using the <code>list</code> block to create a list, the <code>item [#] of [list]</code> block, the <code>length of [list]</code> block, the <code>add [] to [list]</code> block, and the <code>delete [#] from [list]</code> block.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-blocks.png" alt="Image of list blocks from above." /><br/>
+
+		<h3>Creating a List</h3>
+    <p>
+      The list reporter block is used to make a list.  You can either make an empty list by removing all of the input slots, or you can make a list with data by putting values into the input slots.  Build the script below to explore how an empty list and a list with data appear in <span class="snap">snap</span>.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-create.png" alt="Make an empty list and one with data." /><br/>
+
+		<h3>Add to a List</h3>
+    <p>
+      To add a value to a list, you need a list to add to.  This may seem obvious, but it's easy to mistakenly think that the <code>add [] to [list]</code> block will both make a list and put something into it.  For example, the following script will not work.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-add-bad.png" alt="Adding to a variable that is not a list." /><br/>
+
+		<p>Build the script above and run it.  You'll get the following error.</p>
+		<img src="/main-labs/practice/images/todo/list-error.png" alt="Try to add to a list variable without a list in it." /><br/>
+
+		<p>
+			As you start to work with lists, you'll probably run into that error. The error occurs when you are trying to do something that requires a list but you aren't using a list.  In the above example, you are trying to add to a list, but all you have is an ordinary script variable with a default value of 0.  If you want that variable to be a list, it's not enought to just name it as a list.  You need to set it to a list by using the <code>list</code> reporter block to create a list.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-add-good.png" alt="Add to an empty list." /><br/>
+
+		<h3>Get a List Item</h3>
+    <p>
+      The <code>item [] of [list]</code> reporter block is used to get an item from a list.  You use the drop-down to select either item 1, item last, or item any - a random item.  You can also type in a number or use a variable to get an item from a different position in the list.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-get.png" alt="Get items from a list." /><br/>
+
+    <p>
+      We can also use a <code>for</code> loop to go through and get each item in the list.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-forloop.png" alt="Use a for loop to get items from a list." /><br/>
+
+	</body>
+</html>

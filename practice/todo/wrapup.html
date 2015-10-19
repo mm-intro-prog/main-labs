@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>To Do Application: Wrap up</title>
+	</head>
+	<body>
+		<h2>Code so far...</h2>
+		<p>
+				At this point, your script should look similar to what you see below.
+		</p>
+		<img src="/main-labs/practice/images/todo/remove-items.png" alt="Command block to remove completed items" /><br/>
+
+		<h2>Polish it up</h2>
+		<p>
+			We've got a pretty basic application. We only go through the list once, and if all of the tasks aren't finished, then they are abandoned and we never check again to see if they are done. That's not very helpful! We can do better than that.
+		</p>
+		<p>
+			Let's add a new costume for our sprite that looks like a button.  Then the user can click the sprite/button to go through the list again and remove any newly completed items.
+		</p>
+
+		<p>
+			We can drag-and-drop an image onto the costume tab to create a new costume from that image.  Right-click on the image below to save it to your computer, then use it to make a button costume for your sprite.
+		</p>
+		<img src="/main-labs/practice/images/todo/complete-button.png" alt="Complete button sprite costume." /><br/>
+
+		<p>
+			Use the <code>when I am [clicked]</code> block to broadcast a "completed task" message.  When that message is received, then use your custom block to remove completed tasks.
+		</p>
+		<img src="/main-labs/practice/images/todo/final.png" alt="Completed to do application." /><br/>
+
+		<h2>Rise to the Challenge</h2>
+		<h3>Show the List</h3>
+		<p>
+			We can display the To Do list by showing the global list variable but that isn't very pretty. Try to  make additional sprites to show each item from the to do list on the stage. By using a <code>say</code> block without a time, the say will remain visible.
+		</p>
+
+		<p>
+			This approach will limit the number of items that you can put into the list and still have it display on the stage.  Figure out what amount of tasks will show nicely and add code to ensure that there are never more tasks added than can be displayed.
+		</p>
+
+		<h3>Add More Tasks</h3>
+		<p>
+			Provide a way for the user to add more tasks to the list without starting over again. You could make another "button" or use a hot-key (keypress event).
+		</p>
+
+	</body>
+</html>

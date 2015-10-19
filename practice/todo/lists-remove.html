@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>Review - Removing List Items</title>
+	</head>
+	<body>
+
+		<h2>Removing List Items</h2>
+    <p>
+      The <code>delete [#] of [list]</code> block is used to remove an item from a list.  You use the drop-down to select either item 1, last, or all.  You can also type in a number or use a variable to remove an item from a different position in the list.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-delete.png" alt="Delete an item from a list." /><br/>
+
+		<p>
+			In the above example, we removed the letter b from the list by knowing that it was in position 2.  What if we didn't know where it was, but knew that we wanted to remove the b?  You might be tempted to do the following:
+		</p>
+		<img src="/main-labs/practice/images/todo/list-delete-value-bad.png" alt="Delete an item from a list using a value not a position." /><br/>
+
+		<p>
+			This doesn't trigger an error, but it doesn't work as you might expect.
+		</p>
+
+    <p class="alert quoteOrange">
+      The  <code>delete [#] of [list]</code> block requires a position not a value.
+		</p>
+
+		<p>
+			The correct way to find and delete one or more values is by using a loop.  Because we need a position number, the <code>for</code> loop is a good fit.  You might be tempted to do the following:
+		</p>
+		<img src="/main-labs/practice/images/todo/list-loop-delete-for-bad.png" alt="Incorrect - Conditionally delete an item from a list using a for loop." /><br/>
+
+		<p>
+			While this appears to work, if you look closely you'll notice that the sprite doesn't say the letter c. It skips looking at this value because the counter in the for loop is always incremented, even when a value is removed. It's important to understand why this happens. If this isn't clear to you, add says into the script to see more closely what is happening.
+		</p>
+
+		<p>
+			Modify the list to have two letter b's in a row as follows:
+		</p>
+		<img src="/main-labs/practice/images/todo/list-loop-delete-for-bad2.png" alt="Incorrect - Conditionally delete an item from a list using a for loop." /><br/>
+
+		<p>
+			Now look closely at the output and you'll see that only one of the b's is removed.  So how do we fix this?  The problem results from changing the counter when an item is removed.  There's also a more subtle problem that the loop runs until i is equal to the original length of the list. You can see this by noticing that the script glows longer than the last say.
+		</p>
+		<p>
+			To fix this, we need to use a different loop where we control the counter and the number of times the loop runs is conditional - a <code>repeat until</code> with a separate script variable is perfect for this.
+		</p>
+		<img src="/main-labs/practice/images/todo/list-loop-delete-ok.png" alt="Conditionally delete an item from a list using a repeat until loop." /><br/>
+
+    <p class="alert quoteOrange">
+      When removing items from a list, do not use a <code>for</code> loop and make sure the counter is adjusted as items are removed from the list.  Use good test data to ensure no values are missed.
+		</p>
+
+	</body>
+</html>

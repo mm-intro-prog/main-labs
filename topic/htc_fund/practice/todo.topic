@@ -1,0 +1,26 @@
+title: To Do List
+{
+
+h2: Activities
+learning-goal: Use decomposition to break down a programming task.
+learning-goal: Create an empty list.
+learning-goal: Add items to a list using user input.
+learning-goal: Use a loop to traverse a list.
+learning-goal: Get items from a list.
+learning-goal: Remove items from a list.
+
+//  video: To-do List [https://coursesharing.org/courses/6/lectures/13]
+
+heading: Review
+   resource: Lists [/main-labs/practice/todo/lists.html]
+   resource: Removing List Items [/main-labs/practice/todo/lists-remove.html]
+
+heading: To Do List
+   resource: Introduction [/main-labs/practice/todo/intro.html]
+   resource: Decomposition [/main-labs/practice/todo/decompose.html]
+   resource: Collect Tasks [/main-labs/practice/todo/add-tasks.html]
+   resource: Check for Finished Items [/main-labs/practice/todo/complete-task.html]
+   resource: Remove Items [/main-labs/practice/todo/remove-tasks.html]
+   resource: Make it Better [/main-labs/practice/todo/wrapup.html]
+
+}
