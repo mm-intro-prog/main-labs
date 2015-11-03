@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>To Do Application: Decomposition</title>
+	</head>
+	<body>
+		<h2>Break It Down</h2>
+		<p>
+			There are several different things that we need to do in this application.  It's important to break up the problem so that it will be easier to understand, build, and maintain.
+		</p>
+		<p>
+			We'll start by splitting up the two main tasks:
+			<br> - getting the to-do tasks
+			<br> - removing the completed tasks
+		</p>
+
+		<p class="alert quoteOrange">
+			Before we start building code, let's just talk through what each part could do.  We can also use this discussion to identify and variables we need and decide if they should be global or script variables.
+		</p>
+
+		<h3>Getting the Tasks</h3>
+		<p>
+			The first part of the problem is getting the tasks.  To do that, we'll need to create a list for our to-do items, then ask for user input.  We'll want to make sure that we don't add empty values to the list, and we'll need a way to know when all of the tasks have been entered.
+		</p>
+
+		<p>
+			We can make the to-do list a global variable to avoid having to pass it around. Since this is a pretty foundational piece of data for the entire application, it seems reasonable that everything should have access to this list of tasks.
+		</p>
+
+		<p class="alert quoteGreen">
+			Go ahead and make a global variable to hold the to do list.
+		</p>
+
+		<h3>Removing the Tasks</h3>
+		<p>
+			Once we have all of the tasks, we'll need to loop through the list of tasks and ask if the task has been completed.  We'll want to verify that a value of yes or no (and also perhaps y or n) was entered and if not, prompt again.  If the task is done, then we can remove that item from the list.  If not, we'll leave it there for later.
+		</p>
+
+		<p>
+			This part could be broken down a little further.  Let's also make a predicate block to find out if the task is completed. It can take the specific task as input and use that to ask. It can also validate the answer, and prompt until a Yes/Y or No/N is entered.
+		</p>
+
+		<p class="alert quoteGreen">
+			<strong>Try it out!</strong>
+			<br>Let's build the main script.
+			<br> - Start the main script by setting the global to-do list variable to an empty list.
+			<br> - Say what the application will do.
+			<br> - Make the custom blocks mentioned above and add them to the script. (You don't have to fill them in yet.)
+		</p>
+
+	</body>
+</html>

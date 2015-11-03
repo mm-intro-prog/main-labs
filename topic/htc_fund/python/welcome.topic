@@ -1,0 +1,29 @@
+title: Besides Blocks: Welcome to Python!
+{
+h2: Big Ideas
+big-idea: Computational Thinking is the idea of how you solve a problem. This process can be applied to any language.
+big-idea: Python and <span class="snap">snap</span> are awesome languages which coexist.
+big-idea: After learning one language, the other languages you learn will be much easier. What you've been learning is "how to think logically" and communicate that in a way the computer understands.
+big-idea: Text based languages use the same logical structures as visual languages.
+big-idea: Every language has its own set of pros and cons.
+
+h2: Activities
+learning-goal: Start playing with Python by using the command line.
+learning-goal: Learn the basics of Python syntax and write a few simple programs.
+learning-goal: You should be comfortable with basic math and "string" operations.
+
+heading: Introduction to Python
+    resource: An Introduction to Python [/main-labs/cur-new/programming/python/intro-python.html]
+    resource: Getting Started with Python [/main-labs/cur-new/programming/python/install-use-shell.html]
+    resource: Command Line Basics [/main-labs/cur-new/programming/python/running_script_from_command_line.html]
+    resource: Working with a Script [/main-labs/cur-new/programming/python/work_with_script.html]
+
+heading: Math and Variables
+    resource: Variables and Primitive Expressions [/main-labs/cur/programming/python/python_syntax_and_operators.html]
+    quiz: Self-Test: Math and Variables [/main-labs/cur/programming/python/math-and-variables-self-test.html]
+
+heading: Strings and Loops
+    resource: Basic String Manipulation [/main-labs/cur-new/programming/python/python_basic_string.html]
+    resource: Printing and While Loops [/main-labs/cur-new/programming/python/printing_while_loops.html]
+    resource: Lab Intro [/main-labs/cur-new/programming/python/intro-lab.html]
+}

@@ -1,0 +1,22 @@
+title: Fun with Words
+{
+
+h2: Activities
+learning-goal: Convert a word to a list of letters.
+learning-goal: Convert a list of letters to a word.
+learning-goal: Use lists and loops to analyze and alter words.
+
+//  video: Words as Lists [https://coursesharing.org/courses/6/lectures/13]
+
+heading: Review
+   resource: List to Word Conversion [/main-labs/practice/todo/list-word-convert.html]
+
+heading: Fun with Words
+   resource: Introduction [/main-labs/practice/todo/intro.html]
+   resource: Decomposition [/main-labs/practice/todo/decompose.html]
+   resource: Collect Tasks [/main-labs/practice/todo/add-tasks.html]
+   resource: Check for Finished Items [/main-labs/practice/todo/complete-task.html]
+   resource: Remove Items [/main-labs/practice/todo/remove-tasks.html]
+   resource: Make it Better [/main-labs/practice/todo/wrapup.html]
+
+}
