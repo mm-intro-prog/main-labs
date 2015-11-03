@@ -33,21 +33,39 @@
               <tr>
                   <td>
                       <p><pre><code>
-def count_up(num):
-    i = 1
-    while i < num:
-        print(i)
-        i += 1
+i=0
+while i < 5:
+  print(i)
+  i += 1
                     </code></pre></p>
                   </td>
                   <td>
-                      <img src="/main-labs/img/python/count_up_not_repeat_until_Snap.png"/>
+                      <img src="/main-labs/img/python/count_up_while.png"/>
                 </td>
               </tr>
           </table>
           <p>
               The <code>while</code> loop is analogous to the 'repeat until' block in <span class="snap">snap</span> However, in Python the loop ends when the condition becomes <code>False</code>. This is opposite of  'repeat until', which waits for its condition to become <code>True</code>.
           </p>
-          
+
+          <p>
+            Notice that the line with the <code>while</code> ends with a : and that the following lines are indented.  The indentation indicates what code is repeated by the loop.  The next line that is not indented will happen when the loop is over.
+          </p>
+
+          <p class="alert quoteOrange">
+            Spacing and formatting in Python is <em>extremely important.
+          </p>
+
+          <p>
+            <strong>Try this:</strong>
+            Spacing and formatting in Python is <em>extremely important.  What will the following code do?
+          </p>
+          <p><pre><code>
+num = 5
+i = 0
+while i < num:
+    i += 1
+print(i)
+          </code></pre></p>
     </body>
 </html>
