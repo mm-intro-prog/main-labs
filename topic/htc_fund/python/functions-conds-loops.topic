@@ -20,8 +20,8 @@ heading: Defining Functions
 
 heading: More Loops and Conditionals
   resource: Loops [/main-labs/cur-new/programming/python/loops.html]
-  resource: Return Values [/main-labs/cur-new/programming/python/reverse-function.html]
+  resource: Reverse Function [/main-labs/cur-new/programming/python/reverse-function.html]
   resource: Conditionals [/main-labs/cur-new/programming/python/conditionals.html]
-  resource: Return Values [/main-labs/cur-new/programming/python/palindrome-function.html]
+  resource: Palindrome Function [/main-labs/cur-new/programming/python/palindrome-function.html]
 
 }
