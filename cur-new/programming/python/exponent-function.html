@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Function Return Values</title>
+    </head>
+    <body>
+
+        <h3>Return Values</h3>
+        <p>
+          In <span class="snap">snap</span> speak) we made reporter blocks and predicatoe blocks that could report back a value. In python, functions that we write are also able to report back values, but we say that the function <em>returns</em> a value instead of reports a value. This corresponds to the word <code>return</code> which is used in python (and many other languages).
+        </p>
+        <p><pre><code>
+>>> def add(x, y):
+...    return x + y
+
+>>> print add(2,3)
+5
+        </code></pre></p>
+
+
+        <h3>Exercise 2</h3>
+        <p>
+            Find Exercise 2 in the functions.py file and add the code to the <code>exponent(num, power)</code> function that has been defined for you.  Notice that it takes two arguments (a number and an exponent value) and returns the computed result. Below are a few example inputs.
+        </p>
+        <p><pre><code>
+>>> exponent(10, 0)
+1
+>>> exponent(5, 3)
+125
+>>> exponent(2, 10)
+1024
+      </code></pre></p>
+      <p class="alert quoteOrange">
+        For exponent, any value with 0 as the exponent should give you the result of 1.  For any other exponent, that tells you how many times to multiply the number by itself.  So exponent(5, 3) = 5 * 5 * 5 = 125.
+      </p>
+      <p>
+          To test your function, type the following into the command line:
+      </p>
+      <p><pre><code>
+python functions.py exponent
+      </code></pre></p>
+      <p class="alert quoteBlue">
+          This will run a series of tests to validate the functionality of your exponent definition. Check the output to make sure it worked!
+      </p>
+    </body>
+</html>

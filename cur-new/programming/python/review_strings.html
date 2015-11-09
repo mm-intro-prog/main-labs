@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Review Python Strings</title>
+    </head>
+    <body>
+        <h2>Review Strings</h2>
+        <p>
+            Recall that a string is just a sequence of characters, like a word or a sentence. To create a string, we set a variable to text enclosed in quotes (single or double) as shown below:
+            <br><br>
+            <pre><code>
+>>> phrase = "Programming is awesome!"
+>>> cat = 'Bart'
+            </code></pre>
+        </p>
+        <p class="alert quoteOrange">
+          Remember when you see the >>> in the examples, that indicates the example is entered into the python interactive shell.  Do NOT type the >>> into your python file.
+        </p>
+        <h3>String Length</h3>
+        <p>
+            We can get the length of a string by using the <code>len()</code> function.  This function returns (or reports in <span class="snap">snap</span> speak) back a value. To do something with that value, you can use it to set a variable.
+            <br><br>
+            <pre><code>
+>>> len(phrase)
+23
+            </code></pre>
+        </p>
+        <p>
+          The <code>len()</code> function returns (or reports in <span class="snap">snap</span> speak) back a value. To do something with that value, use it to set a variable. Then you can use that variable in other statments such as a <code>print</code> or a loop.
+          <br><br>
+          <pre><code>
+>>> phrase_length = len(phrase)
+>>> print( "The length of the phrase is " + phrase_length )
+The length of the phrase is 23
+          </code></pre>
+        </p>
+        <p>
+          Notice that in the code above the <code>+</code> operator was used to join strings together.
+        </p>
+
+        <h3>Characters and Substrings</h3>
+        <p>
+          We can access certain letters of a string by using square braces [].
+          <br><br>
+          <pre><code>
+>>> first_letter = phrase[0]
+>>> print( "The first letter of the phrase is " + first_letter )
+The first letter of the phrase is P
+          </code></pre>
+        </p>
+        <p class="alert quoteOrange">
+          <strong>Common Mistake:</strong>
+          <br>Remember that in python the first letter of a string is at position 0, not position 1.
+          <br>
+          Note:  Having the first element at the 0th position is called <b>"0 indexing"</b> and is very common in many  programming languages.
+        </p>
+        <p>
+          We can get at parts of a string (or a substring) by using square braces with a colon. Substring <code>[start:end]</code> returns the letters in the word from <code>start</code> up to, but not including the character at <code>end</code>.
+          <br><br>
+          <pre><code>
+>>> part = phrase[3:7]
+>>> print( part )
+gram
+          </code></pre>
+        </p>
+    </body>
+</html>

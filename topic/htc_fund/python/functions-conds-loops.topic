@@ -5,14 +5,23 @@ h2: Activities
 learning-goal: Continue working with Python.
 learning-goal: Write functions and loops using Python syntax.
 learning-goal: Write conditional statements in Python.
-learning-goal: Use basic Python "string" operations.
+learning-goal: Use basic Python "string" and math operations.
 
-heading: Defining Functions and Loops
+heading: Review Basic Syntax
+    resource: Variables and Operators [/main-labs/cur-new/programming/python/review-var-operators.html]
+    resource: Strings [/main-labs/cur-new/programming/python/review_strings.html]
+    resource: While Loop [/main-labs/cur-new/programming/python/review_while.html]
+
+heading: Defining Functions
     resource: Defining a Python Function [/main-labs/cur-new/programming/python/define_simple_function.html]
-    resource: Printing and While Loops [/main-labs/cur-new/programming/python/printing_while_loops.html]
+    resource: Lab Script [/main-labs/cur-new/programming/python/function-lab-intro.html]
+    resource: Function Debugging [/main-labs/cur-new/programming/python/fix-evens-function.html]
+    resource: Return Values [/main-labs/cur-new/programming/python/exponent-function.html]
 
-heading: String Manipulation, Conditionals, and Recursion
-    resource: Basic String Manipulation [/main-labs/cur-new/programming/python/python_basic_string.html]
-    resource: Conditionals and Recursion [/main-labs/cur-new/programming/python/python_conditionals.html]
+heading: More Loops and Conditionals
+  resource: Loops [/main-labs/cur-new/programming/python/loops.html]
+  resource: Return Values [/main-labs/cur-new/programming/python/reverse-function.html]
+  resource: Conditionals [/main-labs/cur-new/programming/python/conditionals.html]
+  resource: Return Values [/main-labs/cur-new/programming/python/palindrome-function.html]
 
 }

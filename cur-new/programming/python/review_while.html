@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Review While Loops</title>
+    </head>
+    <body>
+        <h2>While Loop</h2>
+        <p>
+            The <code>while</code> loop is commonly used in many programming languages.  It is similar to the 'repeat until' block in <span class="snap">snap</span>, however in Python the loop ends when the condition becomes <code>False</code>. This is opposite of  'repeat until', which waits for its condition to become <code>True</code>.
+        </p>
+        <p><pre><code>
+i=0
+while i < 5:
+  print(i)
+  i += 1
+print( "Loop is finished!" )
+        </code></pre></p>
+        <p>
+          Notice that the line with the <code>while</code> ends with a : and that the following lines are indented.  The indentation indicates what code is repeated by the loop.  The next line that is not indented will happen when the loop is over.
+        </p>
+        <p class="alert quoteOrange">
+          Spacing and formatting in Python is <em>extremely</em> important and mixing tabs and spaces can be confusing. Do NOT use the tab key unless your editor will convert them to spaces for you. Many programming editors  will do this for you automatically.
+          <br>
+          <strong>Check your editor:</strong>
+           <br>If you are using Brackets, check this setting in Brackets at the bottom of the editor. It should say spaces not tab.
+           <br /><img src="/main-labs/img/python/brackets-tabs.png"/>
+           <br>If you are using Atom or another editor, check the preferences for <em>Soft Tabs</em> or an option to convert tabs to a fixed number of spaces.
+         </p>
+
+        <h2>Loops and Strings</h2>
+        <p>
+          We learned that we can get the length of a string using the <code>len(my_string)</code> function and that we can get a single character from a string using square braces and the character position <code>my_string[position]</code>.  We can use these together to make a while loop that will print each letter of a word one at a time.
+        </p>
+        <p class="alert quoteGreen">
+          <strong>Try it!</strong>
+          <br>
+          Use the interactive python shell to make a variable for a word or phrase, and then use a while loop to print each letter one at a time.  
+        </p>
+
+    </body>
+</html>

@@ -14,7 +14,7 @@ print( "Welcome to Python " + your_name)
 
 ####################################################
 # Exercise 1: Say (Print) a message that says you (by
-#    name) can'twait to learn python.  Use the
+#    name) can't wait to learn python.  Use the
 #    your_name variable.
 ####################################################
 

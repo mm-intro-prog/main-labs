@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Loops</title>
+    </head>
+    <body>
+          <p>
+            There are two essential kinds of loops in most programming languages: the For-Loop and the While-Loop.  We already know how to write a while loop in python, next we'll look at how to write a for-loop.  Here is a simple for loop in <span class="snap">snap</span> side-by-side with the same loop in python.
+          </p>
+          <p>
+          <table>
+              <tr>
+                  <td><img src="/main-labs/img/python/for1to10.png" alt="simple for loop in Snap!"/></td>
+                  <td>
+                      <pre><code>
+for i in range( 1, 10 ):
+   print( i )
+                      </code></pre>
+              </tr>
+          </table>
+          </p>
+          <p>
+            This for-loop will print the value of i, 10 times.  The value of i starts at 1, and each time through the loop, the value of i goes up by 1.
+          </p>
+
+          <h3>Range Function</h3>
+          <p>
+            The <code>for</code> loop in Python works similarly to our <span class="snap">snap</span> <code>for</code> loop with some key differences. The python <code>for</code> loop uses a <code>range</code> function create an <strong><em>iterable</em></strong>. An iterable is a just list of items. The <code>range(x, y)</code> function receives two numbers and returns a list of all numbers beginning with <code>x</code> and ending with <code>y-1</code>.  In this example, the list of items starts at 1 an goes up to - but does not inlcude - 10.  Starting with the first item, <code>i</code> takes each consecutive item of the list as its value.
+          </p>
+
+          <p>
+            You can also write the <code>range</code> function with one argument, which causes it to start at 0. The following example will start at 0 and go up to (but not include) 10.
+            <br><br>
+            <pre><code>
+for i in range( 10 ):
+   print( i )
+            </code></pre>
+          </p>
+          <p class="alert quoteGreen">
+            <strong>Try it!</strong>
+            These examples use the <code>for</code> loop and <code>range</code> to count up 9.  Modify the example to count down from 10.
+          </p>
+    </body>
+</html>

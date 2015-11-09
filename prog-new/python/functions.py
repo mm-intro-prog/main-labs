@@ -1,36 +1,30 @@
 """
-This is a comment in python.  We can make comments span multiple lines
-by enclosing our text in triple quotes.
-
-We will also make comments in the code by doing the following:
-"""
-
-# Hello this is a comment made with the '#', but I only work for a single line.
-
-"""
 IMPORTANT STUFF:
 
-In this file is basic 'skeleton code' for many of the exercises that you will be
-asked to complete in this lab.  Try to put you answers in the correct section
-that we have designated by reading the comments.  Things should be in order so just
-scroll down the page as you go through the lab exercises.  At the bottom of the
-page you'll find code that you should not edit.  Feel free to take a look at it
-and see if you can figure out what it's doing.  Good Luck and don't worry this
-file isn't actually a computer virus...but then again how much do yo trust us?
+This file is basic 'skeleton code' for the exercises that you will be asked to
+complete in this lab.  You must put your answers in the correct section that is
+designated in the comments.  Things should be in order so just scroll down the
+page as you go through the lab exercises.
 
+At the bottom of the page you'll find code that you should not edit.  The code
+found there is a test framework that will help to verify that you have correctly
+solved the lab problems. Feel free to take a look at it and see if you can
+figure out what it's doing.
 """
 
+
 your_name = ""
-
-
 
 #########################################
 # Exercise 1: debugging first_even_nums #
 #########################################
 
 def first_even_nums(x):
-    for num in range(1, x):
+    num = 1
+    while ( num < x ):
         print (2 * num)
+        num += 1
+
 
 ########################
 # Exercise 2: exponent #
@@ -119,11 +113,11 @@ def main(argv):
     arguments = argv[1:]
     numArgs = len(arguments)
     if numArgs == 0:
-        print("Please enter a function name to test.  \nTry python welcome.py function_name <argument>  (the <> means it's optional)")
+        print("Please enter a function name to test.  \nTry python lab10.py function_name <argument>  (the <> means it's optional)")
         print("Valid function_names are: " + " ".join(functionList))
         sys.exit(1)
     elif (numArgs > 2):
-        print ("It appears that you've inputted too many arguments.  \nTry python welcome.py function_name <argument> (the <> means it's optinoal)")
+        print ("It appears that you've inputted too many arguments.  \nTry python lab10.py function_name <argument> (the <> means it's optinoal)")
         sys.exit(1)
     else:
         case = -1
@@ -144,7 +138,7 @@ def main(argv):
                     sys.exit(1)
                 first_even_nums(arg)
             else:
-                print("Please enter a number after the function name such as:\npython welcome.py first_even_nums 5")
+                print("Please enter a number after the function name such as:\npython lab10.py first_even_nums 5")
                 sys.exit(1)
 
         # Exercise 2 #
