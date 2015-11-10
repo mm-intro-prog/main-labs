@@ -113,11 +113,11 @@ def main(argv):
     arguments = argv[1:]
     numArgs = len(arguments)
     if numArgs == 0:
-        print("Please enter a function name to test.  \nTry python lab10.py function_name <argument>  (the <> means it's optional)")
+        print("Please enter a function name to test.  \nTry python functions.py function_name <argument>  (the <> means it's optional)")
         print("Valid function_names are: " + " ".join(functionList))
         sys.exit(1)
     elif (numArgs > 2):
-        print ("It appears that you've inputted too many arguments.  \nTry python lab10.py function_name <argument> (the <> means it's optinoal)")
+        print ("It appears that you've inputted too many arguments.  \nTry python functions.py function_name <argument> (the <> means it's optinoal)")
         sys.exit(1)
     else:
         case = -1
@@ -138,7 +138,7 @@ def main(argv):
                     sys.exit(1)
                 first_even_nums(arg)
             else:
-                print("Please enter a number after the function name such as:\npython lab10.py first_even_nums 5")
+                print("Please enter a number after the function name such as:\npython functions.py first_even_nums 5")
                 sys.exit(1)
 
         # Exercise 2 #
