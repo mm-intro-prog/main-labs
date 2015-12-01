@@ -45,3 +45,17 @@ your_name = ""
 #   - The area is calculated as follows:
 #        area = (2 * 3.14 * radius * height) + (3.14 * radius * radius)
 ############################################################
+
+
+
+
+
+
+#############################################################
+# Exercise 4
+#
+# Use your cylinder class to make a cylinder with a radius
+#     of 4 and height of 6.
+# Print the radius of the cylinder.
+# Print the area of the cylinder.
+############################################################
