@@ -1,13 +1,11 @@
-title: Introduction to <span class="snap">snap</span>
+title: Exploring Further
 
 {
-h2: Major Concepts
-big-idea: Practice sequential programming
+h2: Goals
+learning-goal: Develop the habit of programming between classes
+learning-goal: Build skills for experimenting with and learning to use new blocks
+learning-goal: Learn to import image and sound files for use in your projects
 
-h2: Activities
-learning-goal: Make a drawing program
-learning-goal: Make a sprite sing
-learning-goal: Move a sprite around the screen.
 
 heading: Build some apps!
    resource: Snap Draw [/main-labs/cur-new/programming/snap-intro-hw/snap-draw.html]
