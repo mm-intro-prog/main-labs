@@ -2,13 +2,11 @@ title: Introduction to <span class="snap">snap</span>
 
 {
 h2: Major Concepts
-big-idea: Explore abstraction through <span class="snap">snap</span> blocks as it relates to Computer Science (CS)
 big-idea: Explore sequential programming
 
 h2: Activities
 learning-goal: Familiarize yourself with the <span class="snap">snap</span> interface
 learning-goal: Make a <span class="snap">snap</span> account to save and load projects
-learning-goal: Make a sprite sing
 learning-goal: Learn to use the mouse to move sprites around the screen.
 learning-goal: Make a Kaleidoscope
 

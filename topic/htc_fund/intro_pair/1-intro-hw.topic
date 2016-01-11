@@ -1,0 +1,15 @@
+title: Introduction to <span class="snap">snap</span>
+
+{
+h2: Major Concepts
+big-idea: Practice sequential programming
+
+h2: Activities
+learning-goal: Make a drawing program
+learning-goal: Make a sprite sing
+learning-goal: Move a sprite around the screen.
+
+heading: Build some apps!
+   resource: Snap Draw [/main-labs/cur-new/programming/snap-intro-hw/snap-draw.html]
+   resource: Let Me Hear You Sing [/main-labs/cur-new/programming/snap-intro-hw/sprite-sing.html]
+}

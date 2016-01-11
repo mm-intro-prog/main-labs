@@ -1,0 +1,23 @@
+title: Besides Blocks: Data Structures and Python
+{
+h2: Big Ideas
+big-idea: Object oriented design focuses on the properties and behaviors of things.
+big-idea: Objects have data values which are called properties, and are able to do behaviors by using their methods.
+big-idea: The python language includes many built-in objects such as strings, lists, and dictionaries.
+big-idea: Importing python libraries (such as random) allows you to use additional objects and their methods.
+
+h2: Activities
+learning-goal: Write a simple python class with properties and methods.
+learning-goal: Use good programming practices to encapsulate (hide) object properties.
+learning-goal: Create an object from a class and use its methods.
+learning-goal: Write a class that inherits from another class.
+
+heading: Introduction to Objects in Python
+    resource: Intro to Object Oriented Design and Programming [/main-labs/cur-new/programming/objects/introduction.html]
+    resource: Common Errors with Objects in Python [/main-labs/cur-new/programming/objects/class-errors.html]
+
+    resource: Protect Your Data with Encapsulation [/main-labs/cur-new/programming/objects/encapsulation.html]
+
+
+
+}
