@@ -25,8 +25,7 @@ heading: Another way to loop
   resource: A new way to loop [/main-labs/cur-new/programming/loops/for/introduction-to-for.html]
   resource: The FOR block [/main-labs/cur-new/programming/loops/for/for.html]
   resource: Using the FOR block [/main-labs/cur-new/programming/loops/for/using-for.html]
-
+  resource: Nested FOR loops [/main-labs/cur-new/programming/loops/for/nested-for.html]
   //quiz: TODO Test Yourself: FOR [/main-labs/cur-new/programming/loops/for/test-yourself-for.html]
-  resource: Nested FORs [/main-labs/cur-new/programming/loops/for/nested-for.html]
 
 }
