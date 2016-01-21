@@ -1,0 +1,32 @@
+title: Looping and Custom Blocks
+
+{
+
+heading: Repeating commands
+  resource: Don't repeat yourself! [/main-labs/cur-new/programming/loops/repeat-n/introduction-to-repeat-n.html]
+  quiz: Test yourself: Nested Repeat [/main-labs/cur-new/programming/loops/repeat-n/repeat-self-test.html]
+  resource: Drawing regular polygons [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-polygons-with-repeat.html]
+
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?1]
+  quiz: Test yourself: Total turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test.html]
+  resource: Draw a star [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-star.html]
+  quiz: Test yourself: More on turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test-2.html]
+
+heading: Making your own blocks
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?2]
+  resource: Making your first custom block [/main-labs/cur-new/programming/functions/tutorial-custom-blocks.html]
+  resource: Adding an input [/main-labs/cur-new/programming/functions/adding-a-simple-input.html]
+
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?3]
+  resource: Make a "draw polygon" block [/main-labs/cur-new/programming/functions/make-a-draw-polygon-block.html]
+
+heading: Another way to loop
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?4]
+  resource: A new way to loop [/main-labs/cur-new/programming/loops/for/introduction-to-for.html]
+  resource: The FOR block [/main-labs/cur-new/programming/loops/for/for.html]
+  resource: Using the FOR block [/main-labs/cur-new/programming/loops/for/using-for.html]
+
+  //quiz: TODO Test Yourself: FOR [/main-labs/cur-new/programming/loops/for/test-yourself-for.html]
+  resource: Nested FORs [/main-labs/cur-new/programming/variables/nested-for.html]
+
+}

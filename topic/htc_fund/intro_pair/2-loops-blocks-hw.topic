@@ -1,0 +1,17 @@
+title: More Looping and Custom Blocks
+
+{
+
+heading: Building complicated blocks with simple blocks
+  resource: Building with custom blocks: your first flower [/main-labs/cur-new/programming/functions/composing-blocks.html]
+  //quiz: TODO practice  composing functions (1/2 of Jessica's previous quiz?)
+  quiz: Composing with "buggy" blocks [/main-labs/cur-new/programming/functions/buggy-house-and-square.html]
+  resource: Draw a flower [/main-labs/cur-new/programming/functions/draw-a-flower.html]
+
+heading: Using randomness
+  resource: The random block [/main-labs/cur-new/programming/random/the-random-block.html]
+  resource: Moving a sprite randomly around the screen  [/main-labs/cur-new/programming/random/randomly-moving-character.html]
+  quiz: Understanding The Random Block [/main-labs/cur-new/programming/random/Test-Yourself-random.html]
+  resource: Draw a field of flowers [/main-labs/cur-new/programming/functions/draw-field-of-flowers.html]
+
+}

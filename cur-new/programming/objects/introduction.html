@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Introduction to Object Oriented Programming</title>
+    </head>
+    <body>
+        <h2>Objects</h2>
+        <p>
+          In programming, an object is a way to group related data properties and functionality into one package.  It is intended to be a very intuitive way to organize your code.  Some of the typical examples for illustrating objects and how they work show these concepts well - shapes, animals and people. We'll look at a few examples throughout this lab.
+        </p>
+        <p>
+          When designing an object - thinking about what we will code before we start doing it, we think about it's <em>properties</em> and <em>behaviors</em>.  The object properties are things that describe the object.  These are nouns, like a person's name, age, or height.  The object behaviors are verbs, things that can be done to the object, like change a name, or that the object itself can do, like grow taller or get older.
+        </p>
+        <h2>Make a Person Object</h2>
+        <p>
+          To design a person object, we start by listing the properties and behaviors we care about for our program.  There are many things that a person can do and many things that describe them, but we only care about ones that we need for our application.  My application will track names and ages only.  We can add people, and they can say their name and age.  Simple enough, right?
+        </p>
+        <p>
+          So what will my object look like?
+          <br><b>Properties:</b>
+          <br>  - name
+          <br>  - age
+          <br>
+          <br><b>Behaviors:</b>
+          <br>  - say_name_and_age
+          <br>
+        </p>
+        <p>
+            Notice I left out the height property I mentioned earlier as it isn't relevant to my application. While I <em>could</em> add a height property, since it isn't used that makes thing unnecessarily complex. I will <a href="https://en.wikipedia.org/wiki/KISS_principle"> <em>Keep It Simple</em> </a> by not adding it.  It might be important in another application, but not in this one.  That means a Person object might look and act differently in other applications.
+        </p>
+        <p>
+            Let's look at how to write this in python:
+            <br><pre><code>
+class Person:
+    name = ''
+    age = 0
+
+    def say_name_and_age(self):
+        print("Hello, my name is " + self.name + " and I'm " + str(self.age) + " years old.")
+          </code></pre>
+        </p>
+        <p>
+          Notice that we start by creating a class.  A class is a template for creating objects.  The class is the pattern or blueprint and it can create multiple individual objects.  The properties are just variables and the behaviors are just functions - though we call functions in a class <em>methods</em>.
+        </p>
+        <p class="alert quoteOrange">
+          Notice that in the <code>say_name_and_age</code> method we include a parameter called <code>self</code>.  This is important as it provides the access to the name and age properties - <code>self.name</code> and <code>self.age</code>.  Just using <code>name</code> or <code>age</code> would result in an error.
+        </p>
+
+        <p>
+            To create a Person object and have it say the name and age:
+            <br><pre><code>
+person1 = Person()
+person1.say_name_and_age()
+          </code></pre>
+        </p>
+        <p>
+          This person doesn't have a name and is 0 years old.  Do you see why?  When we wrote the class above, we set the name to the empty string '' and set the age to 0.
+        </p>
+        <p>
+          It's not very helpful if all our people are nameless, but we can set the name and the age:
+          <br><pre><code>
+person1.name = "Buffy"
+person1.age = 16
+person1.say_name_and_age()
+          </code></pre>
+        </p>
+        <p>
+          We can make multiple people following the same pattern:
+          <br><pre><code>
+person2 = Person()
+person2.name = "Willow"
+person2.age = 15
+person2.say_name_and_age()
+          </code></pre>
+        </p>
+        <p>
+          Notice that we use the variable name followed by a dot to access the properties and behaviors of that specific object.  We've been doing this in the previous labs as we've worked with strings, lists, and dictionaries.  What does that tell you?
+        </p>
+        <p class="alert quoteBlue">
+          Python strings, lists and dictionaries are all objects that are built-in to the language.
+        </p>
+    </body>
+</html>

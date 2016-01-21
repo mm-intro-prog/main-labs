@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Common Errors with Objects in Python</title>
+    </head>
+    <body>
+        <h2>Common Errors</h2>
+        <p>
+          Let's look at some errors that you might get while building a class and its methods.  When making a method, you need to give it a <code>self</code> parameter.  What if you leave that out?
+        </p>
+        <p>
+          Let's add a new method <code>say_hello</code> that doesn't use those properties:
+          <br><pre><code>
+class Person:
+    name = ''
+    age = 0
+
+    def say_name_and_age(self):
+        print("Hello, my name is " + self.name + " and I'm " + str(self.age) + " years old.")
+
+    def say_hello():
+        print("Hello!")
+          </code></pre>
+        </p>
+        <p>
+          If we run this now by saying <code>person1.say_hello()</code>, we get the following error:
+          <br><pre><code>
+Traceback (most recent call last):
+  File "person.py", line 31, in <module>
+    person1.say_hello()
+TypeError: say_hello() takes no arguments (1 given)
+          </code></pre>
+        </p>
+        <p class="alert quoteOrange">
+          Even if we don't need the object properties, you must add the <code>self</code> parameter to all object methods.
+        </p>
+
+        <p>
+          Fix the code by adding the <code>self</code> parameter:
+          <br><pre><code>
+class Person:
+    name = ''
+    age = 0
+
+    def say_name_and_age(self):
+        print("Hello, my name is " + self.name + " and I'm " + str(self.age) + " years old.")
+
+    def say_hello(self):
+        print("Hello!")
+          </code></pre>
+        </p>
+
+        <br><br>
+
+        <p>
+          Another common error is to forget to use the <code>self</code> parameter inside the method.  Modify the <code>say_name_and_age</code> method in the class by removing the <code>self</code> from the <code>print</code> statement:
+          <br><pre><code>
+class Person:
+    name = ''
+    age = 0
+
+    def say_name_and_age(self):
+        print("Hello, my name is " + name + " and I'm " + str(age) + " years old.")
+
+    def say_hello(self):
+        print("Hello!")
+          </code></pre>
+        </p>
+        <p>
+          If we run this now by saying <code>person1.say_name_and_age()</code>, we get the following error:
+          <br><pre><code>
+Traceback (most recent call last):
+  File "person.py", line 11, in <module>
+    person1.say_name_and_age()
+  File "person.py", line 6, in say_name_and_age
+    print("Hello, my name is " + name + " and I'm " + str(age) + " years old.")
+NameError: global name 'name' is not defined
+          </code></pre>
+        </p>
+        <p class="alert quoteOrange">
+          If you forget to use the <code>self</code> parameter to refer to a property or method, you will get an error.
+        </p>
+
+        <p>
+          It is important that you learn to recognize these error messages and know how to fix them.
+        </p>
+    </body>
+</html>
