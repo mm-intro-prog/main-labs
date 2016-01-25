@@ -8,6 +8,6 @@ learning-goal: Learn to import image and sound files for use in your projects
 
 
 heading: Build some apps!
-   resource: Snap Draw [/main-labs/cur-new/programming/snap-intro-hw/snap-draw.html]
-   resource: Let Me Hear You Sing [/main-labs/cur-new/programming/snap-intro-hw/sprite-sing.html]
+   resource: Snap Draw [/main-labs/cur-new/programming/snap-intro/snap-draw.html]
+   resource: Let Me Hear You Sing [/main-labs/cur-new/programming/snap-intro/sprite-sing.html]
 }
