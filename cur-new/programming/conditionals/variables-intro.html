@@ -1,0 +1,42 @@
+<html>
+   <head>
+        <script src="/main-labs/llab/loader.js"></script>
+
+        <title>Variables</title>
+   </head>
+   <body>
+       <p>
+	        Before we jump into the main topic of today's lab, we need to briefly discuss variables. Much like in math, variables are used to keep track of values. You've already seen two special kinds of variables in the previous lab: block (or function) parameters and <code>for</code> loop counters.
+        </p>
+        <p>
+          Recall that when you have a block with input <code>x</code>, <code>x</code> will store whatever value the user passed in when they ran the block. In a <code>for</code> loop, the counter (by default, called <code>i</code>) increases every time the loop is run. These two special variables share an important feature: their values are not explicitly set and changed by the programmer - the computer does the work for us.
+        </p>
+
+        <p>
+          While these types of variables are important, it is often useful for us to be able to use variables for our own purposes. For example, if we were creating a game, it might be useful for us to keep track of the player's name and score. We can use variables to accomplish this task. Let's see how.
+       </p>
+
+       <h2>Creating Variables</h2>
+       <p>
+	        We create variables with the tools on the Variables palette. Variables can be created in two ways, depending on how you will use the value.
+       </p>
+       <img src="/main-labs/img/variables/variables-tab.png" alt="top of the variables tab"/>
+
+       <h3>Script Variables</h3>
+       <p>
+	        The recommended way to create variables is using the script variables block, which can be found at the top of the orange Variables palette. This block creates variables that will last until the end of the current script, and because of this, they are called <strong>script variables</strong>. Most variables we create are meant to be temporary, so we like this feature.
+        </p>
+        <p>
+          To create more than one script variable at a time, click the arrow on the right side of the script variables block. You can change the names of script variables by clicking on their names.
+        </p>
+
+        <h3>Global Variables</h3>
+        <p>
+          The other way to create variables is by clicking the "Make a variable" button at the top of the Variables palette. These variables are called <strong>global variables</strong> because they can be accessed by any script at any time. Generally, creating too many of these variables is risky, and should be avoided unless absolutely necessary.
+       </p>
+
+       <p class="alert quoteOrange">
+          Before making a variable, think about which type is better - a script variable or a global variable.  Most variables should be script variables. However, if a value needs to remain throughout the entire length of the program and it must be accessible by multiple parts of the code, a global variable is acceptable.
+       </p>
+   </body>
+</html>

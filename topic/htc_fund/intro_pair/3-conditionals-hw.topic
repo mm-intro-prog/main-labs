@@ -1,0 +1,15 @@
+title: Simple Games
+
+{
+
+heading: Rock, Paper, Scissors
+  quiz: Rock, Paper, Scissors: Choices [/main-labs/cur-new/programming/conditionals/preview-rps.html]
+  resource: Rock, Paper, Scissors [/main-labs/cur-new/programming/conditionals/rock-paper-scissors.html]
+
+heading: Number Guessing
+  resource: Number Guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v1-0.html]
+  resource: More number guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v2-0.html]
+
+
+
+}
