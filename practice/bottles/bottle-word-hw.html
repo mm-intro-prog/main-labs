@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- put the following in exactly -->
+		<script src="/main-labs/llab/loader.js"></script>
+		<title>99 Bottles: Singular or Plural</title>
+	</head>
+	<body>
+
+		<p>
+				At this point, your last line should be correct, <b>but</b> we still have a problem with the singular or plural of bottle.
+		</p>
+
+		<h2>Singular or Plural</h2>
+		<p>
+			We still need to address the issue of whether to use the singular botte or the plural bottles.  Unlike the issue with the last line, this word is used in multiple places and in more than one verse.  To address this, we'll make a variable for the word to use and set that using a custom reporter block.
+		</p>
+
+		<h3>Reporter Block</h3>
+		<p>
+			Let's start by making the reporter block to give us the right word.
+		</p>
+
+		<p class="alert quoteOrange">
+			We learned how to make custom reporter blocks in <a href="/main-labs/cur-new/programming/functions/reporters.html">Lab 3: Defining reporter blocks</a>.  Please review these steps if you don't remember how to make a reporter block.
+		</p>
+
+		<p>
+			When making a block, you need to consider what input the block needs.  What tells us which word to use?  The number of bottles left.  So this block needs to take that value, the number of bottles left, as input.  We then use that to determine the correct word to report.
+		</p>
+
+		<p class="alert quoteGreen">
+			<strong>Try it:</strong>
+			<br>Make the block and have it conditionally return the right word.
+		</p>
+
+		<h3>Bottle Variable</h3>
+		<p>
+			Once you have the reporter block working, set up a script variable for the word to use for bottle and update your script to use that in each of the <code>join</code> blocks. After setting the number of bottles variable, add a set for the bottle word variable and use the reporter block to get the value.
+		</p>
+
+		<p class="alert quoteOrange">
+			Why is it important to set the bottle word after setting the number of bottles?
+		</p>
+
+		<p>
+			If you run the code now is everything correct?  Are we forgetting anything?  What else might we need to do?
+		</p>
+
+		<p class="alert quoteGreen">
+			<strong>Try it:</strong>
+			<br>Test out the code and make sure that your lyrics are correct for the last two verses.  Be sure to look at them closely.
+		</p>
+
+	</body>
+</html>
