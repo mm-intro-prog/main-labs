@@ -1,4 +1,4 @@
-title: Recursion with Trees and Fractals
+title: Recursion Practice
 {
 h2: Big Ideas
 big-idea: Understand the techniques to solving a computer science problem recursively.
@@ -10,8 +10,10 @@ learning-goal: Practice planning and coding recursive blocks.
 heading: Recursion Review
     resource: Countdown [/main-labs/cur-new/programming/recursion/countdown.html]
     resource: Countdown using Recursion [/main-labs/cur-new/programming/recursion/countdown-recur.html]
+
+heading: Recursion Practice
     resource: Say numbers in range [/main-labs/cur-new/programming/recursion/numbers-in-range.html]
-    resource: Tracing Recursive Behavior [/main-labs/cur-new/programming/recursion/trace-numbers-in-range.html]
+//    resource: Tracing Recursive Behavior [/main-labs/cur-new/programming/recursion/trace-numbers-in-range.html]
     resource: Add digits in number [/main-labs/cur-new/programming/recursion/add-digits-in-number.html]
     resource: Add digits in number [/main-labs/cur-new/programming/recursion/even-number-filter.html]
 
