@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- put the following in exactly -->
+  <script src="/main-labs/llab/loader.js"></script>
+  <title>Countdown using Recursion</title>
+</head>
+<body>
+  <p>
+    We can also use recursion to have code repeat. With recursive code we use a custom block that is set up with a recursive case and a base case.
+  </p>
+  <p>
+    Here is a recursive version of the countdown code.
+  </p>
+  <div>
+    <img border="0" src="/main-labs/img/recursion/countdown-recursive.png" alt="Code for the recursive countdown using a repeat block">
+  </div>
+  <p>
+    When working with recursion you must always account for two cases, the base case and the recursive case. The base case ends the recursive loop.  Without a base case (or with a base case that is never met) the code will run forever. The recursive case calls itself, altering the input parameter(s) so that they move toward the base case.
+  </p>
+
+  <div>
+    <img border="0" src="/main-labs/img/recursion/countdown-recursive-cases.png" alt="Code for the recursive countdown using a repeat block">
+  </div>
+
+  <p>
+    We can think of the base case as when the program is asked to do something SO simple, that it doesn't need to delegate at all. It knows how to do it all by itself. For the countdown code, if num is zero, we've got that kind of simple case. If num is zero then we just say "blast-off" and are done!
+  </p>
+
+  <p>
+    In the countdown code, the recursive case calls the countdown function with the input value of num - 1.
+  </p>
+
+  <p class="alert quoteOrange">
+    NOTE: Whenever you write a recursive procedure, make sure you have a base case! Even experienced programmers will forget - so always double-check!
+  </p>
+</body>
+</html>
