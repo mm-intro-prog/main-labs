@@ -1,11 +1,5 @@
 title: Besides Blocks: Welcome to Python!
 {
-h2: Big Ideas
-big-idea: Computational Thinking is the idea of how you solve a problem. This process can be applied to any language.
-big-idea: Python and <span class="snap">snap</span> are awesome languages which coexist.
-big-idea: After learning one language, the other languages you learn will be much easier. What you've been learning is "how to think logically" and communicate that in a way the computer understands.
-big-idea: Text based languages use the same logical structures as visual languages.
-big-idea: Every language has its own set of pros and cons.
 
 h2: Activities
 learning-goal: Start playing with Python by using the command line.
@@ -13,5 +7,5 @@ learning-goal: Learn the basics of Python syntax and write a few simple bits of 
 learning-goal: You should be comfortable with basic math and "string" operations.
 
 heading: More Basic Python
-  resource: More Python [/main-labs/cur-new/programming/python/intro-python-hw-lab.html]
+  resource: More Python [/main-labs/cur-new/programming/python/intro-lab-hw.html]
 }
