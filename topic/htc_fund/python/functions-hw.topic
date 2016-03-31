@@ -9,6 +9,6 @@ learning-goal: Use basic Python "string" and math operations.
 learning-goal: Write code that gets command line input from the user.
 learning-goal: Write code that converts values between strings and integers.
 
-heading: More Basic Python
-  resource: More Python [/main-labs/cur-new/programming/python/functions-lab-hw.html]
+heading: More Python Functions
+  resource: Homework problems [/main-labs/cur-new/programming/python/functions-lab-hw.html]
 }
