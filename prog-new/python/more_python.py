@@ -1,5 +1,5 @@
 """
-This is the firs HW lab for python.
+This is the first HW lab for python.
 """
 
 # Enter your full name here.

@@ -1,0 +1,14 @@
+title: Besides Blocks: Welcome to Python!
+{
+
+h2: Activities
+learning-goal: Continue working with Python.
+learning-goal: Write functions and loops using Python syntax.
+learning-goal: Write conditional statements in Python.
+learning-goal: Use basic Python "string" and math operations.
+learning-goal: Write code that gets command line input from the user.
+learning-goal: Write code that converts values between strings and integers.
+
+heading: More Basic Python
+  resource: More Python [/main-labs/cur-new/programming/python/functions-lab-hw.html]
+}
