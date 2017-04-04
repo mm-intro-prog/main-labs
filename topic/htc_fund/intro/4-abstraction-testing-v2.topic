@@ -1,0 +1,24 @@
+title: Abstraction and Testing
+{
+
+
+heading: More work with reporters
+  resource: The Max Block [/main-labs/cur-new/programming/functions/review-max-block.html]
+  resource: Input types [/main-labs/cur-new/programming/functions/input-types-new.html]
+  resource: Composition of Reporters [/main-labs/cur-new/programming/functions/composition-of-reporters.html]
+  resource: Sum-thing's Up [/main-labs/cur-new/programming/loops/sum-things-up-debug.html]
+
+heading: Custom blocks make code easier to understand
+  resource: Simplifying a tic-tac-toe board drawer using custom blocks [/main-labs/cur-new/programming/functions/simplifying-tic-tac-toe-board.html]
+  resource: Valid-Date? [/main-labs/cur-new/programming/conditionals/valid-date.html]
+
+heading: Testing your code
+  resource: Simple Debugging [/main-labs/cur-new/programming/debugging/simple-debugging-house.html]
+  resource: The Check Block [/main-labs/cur-new/programming/debugging/the-check-block.html]
+  //resource: Using The Check Block [/main-labs/cur-new/programming/debugging/using-the-check-block.html]
+
+heading: Abstraction
+  resource: Brick Wall [/main-labs/cur-new/programming/abstraction/new-brick-wall.html]
+
+
+}

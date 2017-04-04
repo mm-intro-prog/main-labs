@@ -1,0 +1,42 @@
+title: Looping and Custom Blocks
+
+{
+
+heading: Repeating commands
+  resource: Don't repeat yourself! [/main-labs/cur-new/programming/loops/repeat-n/introduction-to-repeat-n.html]
+  quiz: Test yourself: Nested Repeat [/main-labs/cur-new/programming/loops/repeat-n/repeat-self-test.html]
+  resource: Polygons - Geometry Review  [/main-labs/cur-new/programming/loops/repeat-n/regular-polygons.html]
+  resource: Drawing regular polygons [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-polygons-with-repeat.html]
+  quiz: Test yourself: Total turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test.html]
+
+  //Challenge
+  resource: Challenge: Draw a star [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-star.html]
+  quiz: Test yourself: More on turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test-2.html]
+
+heading: Making your own blocks
+  resource: Making your first custom block [/main-labs/cur-new/programming/functions/tutorial-custom-blocks.html]
+  resource: Adding an input [/main-labs/cur-new/programming/functions/adding-a-simple-input.html]
+  resource: Make a "draw polygon" block [/main-labs/cur-new/programming/functions/make-a-draw-polygon-block.html]
+
+heading: Another way to loop
+  resource: A new way to loop [/main-labs/cur-new/programming/loops/for/introduction-to-for.html]
+  resource: The FOR block [/main-labs/cur-new/programming/loops/for/for.html]
+  resource: Using the FOR block [/main-labs/cur-new/programming/loops/for/using-for.html]
+  resource: Nested FOR loops [/main-labs/cur-new/programming/loops/for/nested-for.html]
+  //quiz: TODO Test Yourself: FOR [/main-labs/cur-new/programming/loops/for/test-yourself-for.html]
+
+heading: Building complicated blocks with simple blocks
+  resource: Building with custom blocks: your first flower [/main-labs/cur-new/programming/functions/composing-blocks.html]
+  quiz: Composing with "buggy" blocks [/main-labs/cur-new/programming/functions/buggy-house-and-square.html]
+  resource: Draw a flower [/main-labs/cur-new/programming/functions/draw-a-flower.html]
+
+heading: Using randomness
+  resource: The random block [/main-labs/cur-new/programming/random/the-random-block.html]
+  resource: Moving a sprite randomly around the screen  [/main-labs/cur-new/programming/random/randomly-moving-character.html]
+  quiz: Understanding The Random Block [/main-labs/cur-new/programming/random/Test-Yourself-random.html]
+  resource: Draw a field of flowers [/main-labs/cur-new/programming/functions/draw-field-of-flowers.html]
+
+heading: Lose Yourself to Dance
+  resource: Bug Dance [/main-labs/cur-new/programming/functions/bug-dance.html]
+
+}
