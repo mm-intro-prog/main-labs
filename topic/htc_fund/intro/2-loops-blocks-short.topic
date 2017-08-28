@@ -9,10 +9,6 @@ heading: Repeating commands
   resource: Drawing regular polygons [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-polygons-with-repeat.html]
   quiz: Test yourself: Total turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test.html]
 
-  //Challenge
-  resource: Challenge: Draw a star [/main-labs/cur-new/programming/loops/repeat-n/draw-regular-star.html]
-  quiz: Test yourself: More on turning [/main-labs/cur-new/programming/loops/repeat-n/angles-self-test-2.html]
-
 heading: Making your own blocks
   resource: Making your first custom block [/main-labs/cur-new/programming/functions/tutorial-custom-blocks.html]
   resource: Adding an input [/main-labs/cur-new/programming/functions/adding-a-simple-input.html]
