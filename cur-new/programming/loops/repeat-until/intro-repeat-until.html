@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="/main-labs/llab/loader.js"></script>
+  <title>Repeat until</title>
+</head>
+<body>
+  <p class="code-vid">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/jsUN0NV5RfQ" frameborder="0" allowfullscreen></iframe>
+    <br />
+    <span class="caption">Thanks to <a href="http://code.org">code.org</a> for this video!</span>
+  </p>
+  <p>
+    We've learned about loops - ways to repeat code multiple times. And we've learned about conditions - decisions that allow us to choose whether or not to run a sequence of code. Now let's combine them together into a loop which repeats until a condition is true.
+  </p>
+  <p>
+    Remember this code from the number guessing game?
+  </p>
+  <p><img src="/main-labs/img/prog/guess-number.png" alt="guess number script"></p>
+  <p>
+    In that code we used a <code>forever</code> and used an if statement with the <code>stop script</code> block to stop the loop. This is functional code, but it can be a little hard to identify exactly how the program ends. It's easy to see the <code>forever</code> loop and assume that the program will never stop.
+  </p>
+
+  <p class="alert quoteOrange">
+    You should try to avoid writing code that uses the <code>forever</code> block, and instead use one of the other types of loops where the ending condition is more clear.
+  </p>
+
+  <p>
+    To make the condition for ending the program more clear, we can rewrite this using the <img class="inline" src="/main-labs/img/blocks/repeat-until.png" alt="empty repeat-until block" />.
+  </p>
+  <p><img src="/main-labs/img/prog/guess-number-repeat-until.png" alt="guess number script"></p>
+  <p>
+    This makes the code a little easier to read and understand. You can immediately see that the loop will end when the answer matches the secret number.
+  </p>
+
+  <p class="alert quoteOrange">
+    Be careful with the <code>ask</code> and <code>answer</code> blocks.  The ask will always hold the answer to the most recently asked question. While that is relatively clear here, because there is so little code, it does not take much for it to become confusing.  It is recommended that you always save the answer into a clearly named variable immediately following the ask block.  That way you will never wonder what the answer contains.
+  </p>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/main-labs/llab/loader.js"></script>
+<title>Mystery Block</title>
+</head>
+<body>
+
+<div class="assessment-data" type="multiplechoice" identifier="join1"
+     hasinlinefeedback="true" maxchoices="1"
+     responseIdentifier="resp1" shuffle="false" >
+
+	<div class="prompt">
+		<p>
+      Predict what the block shown below will report when run with inputs "hello" and 5.
+    </p>
+    <img src="/main-labs/img/building-blocks/join-word-n-times.png" alt="mysterious block definition"/>
+	</div>
+
+  <div class="choice" identifier="c1">
+    <div class="text">
+      &nbsp;&nbsp; (nothing)
+    </div>
+    <div class="feedback">
+      The variable <code>result</code> is initially set to nothing, so if the repeat loop did not run, this block would report nothing.  How many times does the loop repeat if we run the code with the inputs "hello" and "5"?
+    </div>
+  </div>
+
+	<div class="choice" identifier="c2">
+		<div class="text">
+			result
+		</div>
+		<div class="feedback">
+			The values <code>result</code>, <code>word</code>, and <code>n</code> are variables.  Think about what their values are to determine what the reported value will be.
+		</div>
+	</div>
+
+	<div class="choice" identifier="c3">
+		<div class="text">
+			result hello result hello result
+		</div>
+		<div class="feedback">
+			The values <code>result</code>, <code>word</code>, and <code>n</code> are variables.  Think about what their values are to determine what the reported value will be.
+		</div>
+		<div class="feedback">
+			Look carefully at the repeat loop. It is joining <code>word</code> to another value.  What is it?
+		</div>
+	</div>
+
+	<div class="choice" identifier="c4">
+		<div class="text">
+			hello hello hello hello hello
+		</div>
+		<div class="feedback">
+			Close! Each time through the loop, the <code>word</code> is joined to the <code>result</code>, but think more carefully about how the <code>join</code> block works.
+		</div>
+	</div>
+
+  <div class="choice" identifier="c5">
+		<div class="text">
+			hellohellohellohellohello
+		</div>
+		<div class="feedback">
+			Correct! Each time through the loop, the <code>word</code> is joined to the <code>result</code>. There is no space between the words, because we did not tell it to join a space between the variables.
+		</div>
+	</div>
+	<div class="responseDeclaration" identifier="resp1">
+		<div class="correctResponse" identifier="c5"></div>
+	</div>
+</div>
+</body>
+</html>

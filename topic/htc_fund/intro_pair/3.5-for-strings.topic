@@ -1,0 +1,33 @@
+title: More Loops & Strings
+
+{
+
+heading: More loops
+  resource: Repeat until[/main-labs/cur-new/programming/loops/repeat-until/intro-repeat-until.html]
+  resource: Using the REPEAT UNTIL block [/main-labs/cur-new/programming/loops/repeat-until/using-repeat-until.html]
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?1]
+
+  resource: Another way to loop [/main-labs/cur-new/programming/loops/for/introduction-to-for.html]
+  resource: The FOR block [/main-labs/cur-new/programming/loops/for/for.html]
+  resource: Using the FOR block [/main-labs/cur-new/programming/loops/for/using-for.html]
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?2]
+
+  resource: Nested FOR loops [/main-labs/cur-new/programming/loops/for/nested-for.html]
+
+heading: Strings
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?3]
+  resource: Strings [/main-labs/cur-new/programming/strings/strings-intro.html]
+  resource: Mystery Block [/main-labs/cur-new/programming/strings/test-yourself-join.html]
+  resource: Blocks for strings [/main-labs/cur-new/programming/strings/strings-blocks.html]
+  resource: Practice with strings [/main-labs/cur-new/programming/strings/strings-examples.html]
+
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?4]
+  resource: More Practice... [/main-labs/cur-new/programming/strings/strings-examples-more.html]
+
+  resource: Pair Programming Swap [/main-labs/cur-new/programming/guides/pair-programming-swap.html?5]
+  resource: Unicode [/main-labs/cur-new/programming/strings/strings-unicode.html]
+
+
+
+
+}

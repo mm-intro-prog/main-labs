@@ -1,0 +1,35 @@
+<html>
+<head>
+  <script src="/main-labs/llab/loader.js"></script>
+  <title>Unicode</title>
+</head>
+<body>
+
+<h3>Unicode</h3>
+<p>
+  Deep down, computers deal with numbers, specifically 1's and 0's or binary numbers. <b>Unicode</b> is a way to represent characters a number.  It is one of many different ways to <i>encode</i> characters, but is commonly used now because it is able to consistently encode every character, no matter what language the character is in, what programming language you use, or what type of computer you are working on.
+</p>
+<p>
+  There are two additional blocks in <span class="snap">Snap</span> that allow us to convert between characters and their <i>unicode</i> value:
+</p>
+<p>
+  The <img class="inline" src="/main-labs/img/blocks/unicode-of.png" alt="unicode of (a)"/> block will tell you the unicode, numeric value of a character. This block will report that the <code>unicode of (a)</code> is <code>97</code>.
+</p>
+<p>
+  The <img class="inline" src="/main-labs/img/blocks/unicode-x-as-letter.png" alt="unicode (65) as letter"/> block will tell you what character (or letter), is represented by a numeric unicode value. This block will report that <code>unicode (65) as a letter</code> is <code>A</code>.
+</p>
+<p class="alert quoteBlue">
+  Notice that while we think of both "a" and "A" as <i>the letter a</i> they are completely different characters, each with their own unicode representation.
+</p>
+<p>
+  The unicode value of a character is not something that we need often, but it can come in handy for certain types of programming problems. In particular it is handy to turn strings into numbers for things like encryption and checking for data loss or data tampering. The process of doing this is often called <i>hashing</i>.  While these problems can be quite complex, they are built on this fundamental idea of converting data into a numeric representation.
+</p>
+<p class="alert quoteGreen">
+  Write a block called <code>encode message</code> that will use a simple hash function to take a message and encode it as a number. To encode the message as a number, convert each character in the message to its unicode value, keeping a running sum of all the numbers.
+<br><br><b>Hint:</b> You will need a variable for the sum, and then will need to add to it in a loop that examines each character in the message. A <code>for</code> loop is a good choice for this.
+</p>
+<p class="alert quoteOrange">
+  Can you come up with two different messages that will get the same numeric encoding from the <code>encode message</code> block above?
+</p>
+</body>
+</html>
