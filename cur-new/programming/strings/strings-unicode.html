@@ -22,14 +22,17 @@
   Notice that while we think of both "a" and "A" as <i>the letter a</i> they are completely different characters, each with their own unicode representation.
 </p>
 <p>
-  The unicode value of a character is not something that we need often, but it can come in handy for certain types of programming problems. In particular it is handy to turn strings into numbers for things like encryption and checking for data loss or data tampering. The process of doing this is often called <i>hashing</i>.  While these problems can be quite complex, they are built on this fundamental idea of converting data into a numeric representation.
+  The unicode value of a character is not something that we need often, but it can come in handy for certain types of programming problems. In particular it is handy to turn strings into numbers for things like encryption and checking for data loss or data tampering. The process of doing this is often called <i>hashing</i>.  While these problems can be quite complex, they are built on this fundamental idea of converting data into a number representing that data.
+</p>
+<p>
+  Let's write a simple block to <i>hash</i> a string.
 </p>
 <p class="alert quoteGreen">
-  Write a block called <code>encode message</code> that will use a simple hash function to take a message and encode it as a number. To encode the message as a number, convert each character in the message to its unicode value, keeping a running sum of all the numbers.
-<br><br><b>Hint:</b> You will need a variable for the sum, and then will need to add to it in a loop that examines each character in the message. A <code>for</code> loop is a good choice for this.
+  Create a reporter block called <code>encode message</code>. This block will take in a message (as an input parameter) and output it (report it) encoded as a number. To encode the message as a number, convert each character in the message to its unicode value, keeping a running sum of all the numbers.
+<br><br><b>Hint:</b> You will need a variable to hold the sum, and then will need to use a loop to examin each character in the messge, convert it a number, then add it onto the sum. A <code>for</code> loop is a good choice for this.
 </p>
 <p class="alert quoteOrange">
-  Can you come up with two different messages that will get the same numeric encoding from the <code>encode message</code> block above?
+  Can you come up with two different messages that will get the same numeric encoding from the <code>encode message</code> block above?  What would allow for two different messages to produce the same encoded value?
 </p>
 </body>
 </html>
