@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/main-labs/llab/loader.js"></script>
+<title>Brick Wall</title>
+</head>
+<body>
+	<h2>Using Problem Decomposition for Abstraction</h2>
+	<p>
+		Consider this line of code that was used to create the brick wall:
+	</p>
+	<p>
+		<img src="/main-labs/img/abstraction/new-brickwall/draw-brick-wall-7.png" alt="draw-brick-wall-7">
+	</p>
+	<p>
+		If you were to ask a mason to make a brick wall with seven rows, he would surely understand your meaning and make it happen. A computer, however, doesn't know what that means, so you have to fill in the details. This means going from the abstract (draw a brick wall) to the concrete (pardon the pun), which involves problem decomposition.
+	</p>
+	<p>
+		A quick observation shows that there are two kinds of rows of bricks:
+	</p>
+	<ul>
+		<li>
+			<strong>Row A</strong>: <img border="0" title="Row A" alt="Row A" src="/main-labs/img/abstraction/new-brickwall/row-a.png">
+		</li>
+		<li>
+			<strong>Row B</strong>: <img border="0" title="Row B" alt="Row B" src="/main-labs/img/abstraction/new-brickwall/row-b.png">
+		</li>
+	</ul>
+
+	<p>
+		Make blocks <img src="/main-labs/img/abstraction/new-brickwall/rowa-block.png" alt="Row A"> and <img src="/main-labs/img/abstraction/new-brickwall/rowb-block.png" alt="Row B">.  Think about what helper blocks besides <img src="/main-labs/img/abstraction/new-brickwall/draw-brick.png" alt="Draw Brick"> you might want.
+	</p>
+
+	<p>
+		It's possible to go overboard on abstraction, so that you have a gazillion blocks and it's hard to find where the work actually gets done.  But, on the other hand, sometimes it's useful to make a custom block even if its definition is just one primitive block.  For example, to draw the <i>mortar</i> (the white space) between blocks in a row, all you have to do (since the <img src="/main-labs/img/abstraction/new-brickwall/draw-brick.png" alt="Draw Brick"> block picks up the pen at the end of its script) is move forward:
+	</p>
+
+	<img src="/main-labs/img/abstraction/new-brickwall/move4.png" alt="Move 4 Steps">
+
+	<p>
+		You could just use that <b>move</b> block inside your <b>Row A</b> block. But you might instead want to define a <b>Draw Mortar</b> block.  Why? Maybe later you'll decide that four steps is the wrong thickness for mortar, and you'd rather have five steps.  If there are a dozen <b>Move</b> blocks scattered through your program to draw mortar, you might not find them all. With a <b>Draw Mortar</b> block, you can just change its definition, and all the mortar in your picture will be changed.
+	</p>
+	<p>
+		Notice that the two kinds of rows should be exactly the same length.  Your first try at drawing a Row B will probably be a little too long.  Why?  Row A has six whole bricks.  Row B has five whole bricks plus two half-bricks, which adds up to six whole bricks.  To understand the bug, think about the amount of <i>mortar</i> in each kind of row.
+	</p>
+
+	<p>
+		How are you going to fix it?  Should a Row B have different-size bricks, different-size mortar gaps, or different-size half-bricks? If you're not sure, try all the possibilities and see which looks right in the finished wall.  (There's really only one good answer.)
+	</p>
+
+	<p>
+		Once you have the two kinds of rows the same length, you can write the
+		<img src="/main-labs/img/abstraction/new-brickwall/draw-brick-wall-num.png" alt="Draw a Brick Wall with ( ) Rows"> block.  Remember that it should work for both even and odd numbers of rows, which means that sometimes you'll have to draw an extra Row A.
+	</p>
+
+	<p>
+		(How do you know if a number is odd?  You'll find the <img src="/main-labs/img/blocks/mod.png" alt="Mod"> block helpful. Remember that it will give you the remainder from division.)
+	</p>
+</body>
+</html>
