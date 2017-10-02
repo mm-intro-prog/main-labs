@@ -1,0 +1,19 @@
+title: Simple Games
+
+{
+
+heading: More work with reporters
+  resource: The Max Block [/main-labs/cur-new/programming/functions/review-max-block.html]
+  resource: Input types [/main-labs/cur-new/programming/functions/input-types-new.html]
+  resource: Composition of Reporters [/main-labs/cur-new/programming/functions/composition-of-reporters.html]
+  resource: Sum-thing's Up [/main-labs/cur-new/programming/loops/sum-things-up-debug.html]
+
+heading: Number Guessing
+  resource: Number Guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v1-0.html]
+  resource: More number guessing [/main-labs/cur-new/programming/conditionals/number-guessing-game-v2-0.html]
+
+heading: Bonus - Rock, Paper, Scissors
+  quiz: Rock, Paper, Scissors: Choices [/main-labs/cur-new/programming/conditionals/preview-rps.html]
+  resource: Rock, Paper, Scissors [/main-labs/cur-new/programming/conditionals/rock-paper-scissors-full.html]
+
+}
