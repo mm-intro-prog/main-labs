@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Lab Intro</title>
+    </head>
+    <body>
+        <h2>New Lab Script</h2>
+        <p>
+          Get the new Python lab file: <a href="/main-labs/prog-new/python/functions.py">functions.py</a>. Right-click on the link and select Save As and save it to your computer.  Open the shell (PowerShell on Windows) and use the <code>cd</code> command to go to the location where you saved the file.  Use the <code>ls</code> command to verify you are in the right location and see the file listed.
+        </p>
+
+        <p class="alert quoteOrange">
+          It is expected that you will learn to use the shell to locate and run your code.  This is just as important as being able to write it. If you need help ask, but make sure you are learning these commands and skills as you will not get help with this on a test.
+        </p>
+
+        <p>
+          Running the lab file. Remember that you can run a python file by entering <code>python</code> followed by the file name.
+          <br><br>
+          <pre><code>
+C:\PythonLab> python functions.py
+Please enter a function name to test.
+Try python functions.py function_name <argument>  (the <> means it's optional)
+Valid function_names are: first_even_nums exponent reverse_string palindrome all
+          </code></pre>
+        </p>
+        <p>
+          The output is telling you that you should enter a function name to test. Tonight's lab file is set up with a built-in testing framework that will allow you to test your python functions as you write them.  Try adding a function name as suggested:
+          <br><br>
+          <pre><code>
+C:\PythonLab> python functions.py first_even_nums
+Please enter a number after the function name such as:
+python functions.py first_even_nums 5
+          </code></pre>
+        </p>
+        <p>
+          Again the output is providing feedback on what to do.  This function requires an additional value to run. Enter the command again, adding the number as indicated.
+          <pre><code>
+C:\PythonLab> python functions.py first_even_nums 5
+2
+4
+6
+8
+          </code></pre>
+        </p>
+
+        <p class="alert quoteBlue">
+          Testing your code as you write it is a common industry practice that helps to improve code quality. This is often called <em>unit testing</em> and if you write the tests first, before you write your code (as we have done for you here) it is also be called Test First Development or Test Driven Development.
+        </p>
+    </body>
+</html>

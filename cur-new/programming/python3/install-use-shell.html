@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Getting Started with Python</title>
+    </head>
+    <body>
+        <p class="alert alert-danger">
+            This section provides information regarding how to run python and use a command prompt on your computer.  We've done our best to provide information for all major operating systems (although it's easier on some systems than on others).
+        </p>
+        <h2>Install Python</h2>
+        <p>
+          This is done for you on the lab computers.
+        </p>
+
+        <h3>On Windows:</h3>
+        <p>
+          Go to <a href="https://www.python.org/downloads/">Python.org Downloads</a> to download the installer.  You may also find the <a href="https://docs.python.org/2/faq/windows.html">Windows FAQ</a> helpful, as well as this information on <a href="http://showmedo.com/videotutorials/video?name=960000&fromSeriesID=96">Adding Python to the path</a>.
+        </p>
+
+        <h3>On Mac OS X:</h3>
+        <p>
+            Python is installed on some OS X computers by default. While that version may not be the latest, it should serve just fine for the purposes of this class.
+            Check using the terminal as described below first.
+        </p>
+        <p>
+            If needed, you can install python by getting <a href="https://developer.apple.com/xcode/">XCode</a> from the Apple Store or by installing the smaller
+            <a href="https://developer.apple.com/downloads/">Command Line Tools</a>. (Apple account required.)  If you plan to program on a Mac, at a minimum, those command line tools are very helpful.
+            The full install of XCode is much larger and includes an editor and tools for other languages.
+        </p>
+        <h2>Open Command Prompt</h2>
+        <h3>On Windows:</h3>
+        <p>
+            Windows allows you to perform many common actions, like creating or navigating folders and launching applications, from a shell prompt. To open the shell on your computer, click the Start button and type in PowerShell.  Then click on "Windows PowerShell" to run it.
+            <b>Note:</b> Python may not be set up properly on windows by the default install. If you are unable to get python to work from the shell (as explained below) here is a <a href="https://docs.python.org/3.4/faq/windows.html" target="_blank">link</a> that will help you get things set up.
+        </p>
+        <h3>On Mac OS X:</h3>
+        <p>
+            The Terminal window is like a text-based version of your computer. From here, many common actions, like creating or navigating folders and launching applications,
+            can be performed via the command line. On Mac and Linux, the Terminal application can be accessed from the Applications folder under Utilities or using a quick-search function.
+        </p>
+
+        <h2>Running Python in the Interpreter</h2>
+        <p class="alert quoteBlue">
+          <strong>Note</strong>: The version of Python being used in this lab is Python 3. It is important that you are running a version of Python 3 and not Python 2. There are several syntax differences between Python 2.x and 3.x.
+        </p>
+        <br />
+        <p>
+            The next step is to open the Python "interpreter". Open the command prompt or terminal. Then type <code>python</code> and hit the <code>return</code> key.
+            You should see something similar to the following:
+        </p>
+        <p><pre><code>
+C:\Users\Student> python
+Python Python 3.4.3 (default, Aug 11 2015, 08:57:25) [MSC v.1500 64 bit (AMD64)] on win
+32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+        </code></pre></p>
+        <br />
+
+        <p>
+            The <code>>>></code> indicates where to enter python code. After typing a line of code, hitting the <code>Enter</code> key will tell the python interpreter to run
+            the instruction you entered.  Try typing the following into the interpreter:
+        </p>
+        <p><pre><code>
+>>> 3 + 5
+8
+        </code></pre></p>
+        <p>
+            If the text cursor is on a line beginning with <code>>>></code>, the command line window has an active python interpreter open.
+            <b>From here you won't be able to run any other command.</b> To leave the python interpreter type the exit command <code>exit()</code> and hit the <code>Enter</code> key.
+        <p><pre><code>
+>>> exit()
+C:\Users\Student>
+        </code></pre></p>
+        <p>
+            Any functions or variables created in the python interpreter are erased when the <code>exit()</code> command is run.
+        </p>
+
+        <p class="alert quoteOrange">
+          <strong>Note</strong>: Most work will be written in python files, not run through the interpreter. However the interpreter can be handy to quickly test basic syntax and behavior.
+        </p>
+    </body>
+</html>

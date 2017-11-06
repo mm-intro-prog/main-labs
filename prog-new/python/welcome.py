@@ -10,7 +10,7 @@ We will also make comments in the code by doing the following:
 your_name = ""
 
 
-print( "Welcome to Python " + your_name)
+print("Welcome to Python " + your_name)
 
 ####################################################
 # Exercise 1: Say (Print) a message that says you (by

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>Printing and While Loops</title>
+    </head>
+    <body>
+        <h2>Printing</h2>
+        <p>
+          The print statement will show (or print) a value to the command line. This is more or less the equivalent of "say" in <span class="snap">snap</span>. Print statements allow a programmer to print values and variables at a chosen location in the code.
+        </p>
+        <table style="width:auto; table-height:150px">
+              <tr>
+                  <td>
+                      <p><pre><code>
+>>> x = 5
+>>> print(x)
+5
+                    </code></pre></p>
+                  </td>
+                  <td>
+                      <img src="/main-labs/img/python/say_var.png"/>
+                </td>
+              </tr>
+          </table>
+
+
+        <h2>While Loop</h2>
+        <p>
+            Below is a <code>while</code> loop. Side by side with the same code in <span class="snap">snap</span>.  
+        </p>
+        <table style="width:auto; table-height:200px">
+              <tr>
+                  <td>
+                      <p><pre><code>
+i=0
+while i < 5:
+  print(i)
+  i += 1
+                    </code></pre></p>
+                  </td>
+                  <td>
+                      <img src="/main-labs/img/python/count_up_while.png"/>
+                </td>
+              </tr>
+          </table>
+          <p>
+              The <code>while</code> loop is analogous to the 'repeat until' block in <span class="snap">snap</span> However, in Python the loop ends when the condition becomes <code>False</code>. This is opposite of  'repeat until', which waits for its condition to become <code>True</code>.
+          </p>
+
+          <p>
+            Notice that the line with the <code>while</code> ends with a : and that the following lines are indented.  The indentation indicates what code is repeated by the loop.  The next line that is not indented will happen when the loop is over.
+          </p>
+
+          <p class="alert quoteOrange">
+            Spacing and formatting in Python is <em>extremely important.
+          </p>
+
+          <p>
+            <strong>Try this:</strong>
+            Spacing and formatting in Python is <em>extremely</em> important.  What will the following code do?
+          </p>
+          <p><pre><code>
+num = 5
+i = 0
+while i < num:
+    i += 1
+print(i)
+          </code></pre></p>
+    </body>
+</html>

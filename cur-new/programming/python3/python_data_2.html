@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="/main-labs/llab/loader.js"></script>
+        <title>The Natural Language ToolKit</title>
+    </head>
+    <body>
+      <p class="alert alert-danger">
+        This section provides information regarding how to run nltk. The computers in the lab do not have ntlk and its accompanying libraries installed.
+        To complete this lab, you will need to first <a href="https://pypi.python.org/pypi/nltk">download nltk</a> and run the installer.
+      </p>
+
+      <h2>NLTK Library</h2>
+      <p>
+         In this lab, we are going to use some python packages (a package is also known as a library) to help us. The python natural language toolkit (NLTK) is one of the more popular python libraries that people use for natural langugage processing. In fact, Matt Daniels used it for his hip-hop vocabulary. You can learn more about NLTK here, <a href="http://www.nltk.org/book/"> http://www.nltk.org/book/ </a>.
+      </p>
+      <p>
+        The great thing about nltk is that it comes with built-in support for dozens of corpora. If you look up the definition of a corpus, you will see that it is just a collection of written text. For example, NLTK includes a small selection of texts from the <a href="https://www.gutenberg.org/">Project Gutenberg</a>, which contains some 25,000 free electronic books. There is Shakespeare's Macbeth, Hamlet, as well as Julius Cesar. There is also the King James version of the bible as well as Jane Austen's Emma. This makes an interesting set of data for exploration.
+      </p>
+
+      <p style="clear:both" class="alert quoteBlue">
+        This data must be downloaded separately.  To do this, in a python interpreter import nltk then enter the command <code>nltk.download()</code>. This will open a window, or show a command list in your python environment. Go ahead and download the book collection - "Everything used in the NLTK Book".
+      </p>
+
+      <h2>Setup</h2>
+
+      <h3>Starter File</h3>
+      <p>
+          The code for this lab is found in the <a href="/main-labs/prog/python/lexical_diversity.py">Lexical_Diversity.py</a>	starter file.
+
+      </p>
+
+      <h3>Get some data</h3>
+      <p>
+        If you read the article, you will see that Matt used the first 35,000 lyrics of each artist. For the sake of simplicity, we will use the artist Jay Z as the subject of our analysis. So lets get go collect the first 35,000 words of Jay Z's lyrical catalog.
+      </p>
+      <p>
+	       In order to solve this we need to basically find every instance of Jay Z's lyric, scrape them off the internet, and then start number crunching on them. To make this process faster, the creators of this lab built something called a webscraper and scraped all his lyrics till Holy Grail. Hopefully that gives us more than enough data to get to 35,000 words.
+      </p>
+      <p style="clear:both" class="alert quoteBlue">
+        Before we go any further, let's make a directory that will hold our python data files. We can enter the command <code>mkdir PythonDataLab</code> in our terminal to create a directory called PythonDataLab. Now that we have made this new directory enter the command cd PythonDataLab to go to the directory.
+	    </p>
+      <p>
+	       The lyrics scraped off the internet have been compressed in the zip file named <a href="/main-labs/prog/python/JayZ.zip">JayZ.zip.</a> Go ahead an unpack this file to the PythonDataLab folder. Take a look inside, you will see its made up of a bunch of text files. Take sometime and go through some the text file to see what they look like. For example the file JayZ_The Black Album_99 Problems.txt contains the lyrics to 99 problems.
+      </p>
+      <p>
+	       Now that we have our data, let's move on to making our JayZ corpus.
+      </p>
+
+    </body>
+</html>

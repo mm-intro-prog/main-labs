@@ -1,0 +1,11 @@
+title: Besides Blocks: Welcome to Python!
+{
+
+h2: Activities
+learning-goal: Start playing with Python by using the command line.
+learning-goal: Learn the basics of Python syntax and write a few simple bits of code.
+learning-goal: You should be comfortable with basic math and "string" operations.
+
+heading: More Basic Python
+  resource: More Python [/main-labs/cur-new/programming/python/intro-lab-hw.html]
+}

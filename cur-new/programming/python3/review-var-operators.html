@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+      table,th,td {
+        border:1px solid black;
+        border-collapse:collapse;
+      }
+      th, td, tr { padding: 10px; }
+      th { text-align:left;}
+      </style>
+      <script src="/main-labs/llab/loader.js"></script>
+      <title>Variables and Primitive Expressions</title>
+    </head>
+    <body>
+        <h2>Review Variables</h2>
+        <p>
+          Remember in Python, we don't explicitly declare (or make) a variable in code. They are created when they are assigned to a certain value:
+          <br><br>
+          <pre><code>
+x = 18
+y = 24
+z = x + y
+          </code></pre>
+        </p>
+        <p class="alert quoteBlue">
+          Remember that in Python you cannot have spaces in your variable or function names. Use underscores to separate words <code>my_variable</code> or camelCase <code>myVariable</code>.
+        </p>
+        <p>
+          To change the value of a variable, you assign it a new value with the equal operator.  Creating a variable and changing the value of a variable look the same in python.
+          <br><br>
+          <pre><code>
+x = 1
+x = x + 1
+          </code></pre>
+        </p>
+        <p class="alert quoteBlue">
+          Remember that in Python <code>x = x + 1</code> is the same as <code>x += 1</code>.
+        </p>
+
+        <h2>Review Operators</h2>
+        <p>
+          Here's a quick summary of many of the useful operators in Python shown side by side with their <span class="snap">snap</span> equivalent.  
+        </p>
+        <p>
+            <table style="width:auto">
+                <thead>
+                    <th><strong>Function</strong></th>
+                    <th><strong><span class="snap">snap</span></strong></th>
+                    <th><strong>Python</strong></th>
+                </thead>
+                <tr>
+                    <td>Addition</td>
+                    <td>
+                        <img src="/main-labs/img/python/plus.png" alt="x + y"/>
+                    </td>
+                    <td><code>x + y</code></td>
+                </tr>
+                <tr>
+                    <td>Subtraction</td>
+                    <td>
+                        <img src="/main-labs/img/python/minus.png" alt="x - y"/>
+                    </td>
+                    <td><code>x - y</code></td>
+                </tr>
+                <tr>
+                    <td>Multiplication</td>
+                    <td>
+                        <img src="/main-labs/img/python/axb.png" alt="x * y"/>
+                    </td>
+                    <td><code>x * y</code></td>
+                </tr>
+                <tr>
+                    <td>Division</td>
+                    <td>
+                        <img src="/main-labs/img/python/divide.png" alt="x / y"/>
+                    </td>
+                    <td><code>x / y</code></td>
+                </tr>
+                <tr>
+                    <td>Modulo</td>
+                    <td>
+                        <img src="/main-labs/img/python/amodb.png" alt="x mod y"/>
+                    </td>
+                    <td><code>x % y</code></td>
+                </tr>
+                <tr>
+                    <td>Less Than</td>
+                    <td>
+                        <img src="/main-labs/img/python/lessthan.png" alt="x < y"/>
+                    </td>
+                    <td><code>x &lt; y</code></td>
+                </tr>
+                <tr>
+                    <td>Greater Than</td>
+                    <td>
+                        <img src="/main-labs/img/python/greaterthan.png" alt="x > y"/>
+                    </td>
+                    <td><code>x &gt; y</code></td>
+                </tr>
+                <tr>
+                    <td>Equals</td>
+                    <td>
+                        <img src="/main-labs/img/python/equal.png" alt="x = y"/>
+                    </td>
+                    <td><code>x == y</code></td>
+                </tr>
+                <tr>
+                    <td>Not Equal</td>
+                    <td>
+                        <img src="/main-labs/img/cond/not_equal.png">
+                    </td>
+                    <td><code>x != y</code></td>
+                </tr>
+                <tr>
+                    <td>Not</td>
+                    <td><img src="/main-labs/img/cond/not.png"/></td>
+                    <td><code>not x</code></td>
+                    </tr>
+                <tr>
+                      <td>Greater Than or Equal To</td>
+                      <td>
+                        <img src="/main-labs/img/cond/greater_than_equal_to.png"/>
+                      </td>
+                      <td><code>x >= y</code></td>
+                  </tr>
+                <tr>
+                      <td>Less Than or Equal To</td>
+                      <td>
+                        <img src="/main-labs/img/cond/less_than_equal_to.png"/>
+                      </td>
+                      <td><code>x &lt;= y</code></td>
+                  </tr>
+          </table>
+        </p>
+      </body>
+</html>
