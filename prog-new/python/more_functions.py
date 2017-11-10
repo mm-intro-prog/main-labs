@@ -6,7 +6,7 @@ This is the second HW lab for python.
 your_name = "Silly Student"
 
 
-print( "HW 9: " + your_name)
+print( "Python More Functions Lab: " + your_name)
 
 ####################################################
 # Exercise 1:
@@ -83,4 +83,4 @@ secret_number = random.randint( 1, 100 )
 
 
 ####################################################
-print("\nEnd of HW 9")
+print("\nEnd of Python More Functions Lab: " + your_name)
