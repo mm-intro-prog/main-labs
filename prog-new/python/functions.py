@@ -53,7 +53,7 @@ def exponent(num, power):
 
 """
 Modify the function reverse_string that takes in a string and returns
-the string in reversed order.
+the string in reversed order. Use a for loop to do this.
 
 >>>> reverse_string('Alonzo')
 'oznolA'
