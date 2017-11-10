@@ -36,7 +36,7 @@ print("\nExercise 2")
 #  to count up to the number entered and back down.
 ####################################################
 print ("\nExercise 3")
-str_number = raw_input("Enter the number to count to: ")
+str_number = input("Enter the number to count to: ")
 number = int(str_number)
 
 
@@ -72,12 +72,19 @@ print ("\nExercise 5")
 #  print messages to tell if the players guess is
 #  too high or too low.
 #
-#  Define functions to help make the code easier to
-#  read, write and understand.
+#  To make the code easier to read and understand,
+#  first define a function to get the players guess.
 ####################################################
 print ("\nExercise 6 - Number Guessing Game")
 import random
-secret_number = random.randint( 1, 100 )
+secret_number = random.randint( 1, 101 )
+
+# First write a function to get the player's guess
+# and return it back as a number, not a string.
+
+
+# Then write the game script using the helper function
+
 
 
 
